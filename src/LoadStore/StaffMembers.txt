@@ -1,3 +1,250 @@
-11,gsdg,sgds,CS
-13,vng,sasd,CS
-10,hi,activity,CS
+1210,Confucius,teaching philosophy,CS
+1211,Lisbeth Salander,hacking into corporate mainframes,DS
+1212,Johann von Goethe,writing poetry,CS
+1213,Derek Zoolander,peacocking in fancy clothes,DS
+1214,Michael Jordan,playing basketball,CS
+1215,Wile E. Coyote,testing new technologies,DS
+1216,Erasmus,promoting humanism,CS
+1217,Edward Scissorhands,making ice sculptures,DS
+1218,Gordon Gekko,promoting greed,DS
+1219,Walt Whitman,writing modern poetry,CS
+1220,Cleopatra,seducing emperors,CS
+1221,General George Patton,slapping soldiers,CS
+1222,Weird Al Yankovic,singing parody songs,CS
+1223,Rush Limbaugh,promoting conservative values,CS
+1224,Serena Williams,delivering forehand slams,CS
+1225,Borat,interviewing celebrities,DS
+1226,Pythagoras,studying mathematics,CS
+1227,Pepé Le Pew,seducing women,DS
+1228,Beyoncé,singing Hipbop songs,CS
+1229,Modesty Blaise,pulling capers,DS
+1230,Sauron,devising evil schemes,DS
+1231,Piers Morgan,interviewing celebrities,CS
+1232,Ray Kroc,running a multinational corporation,CS
+1233,Maleficent,poisoning an apple,DS
+1234,Mary Poppins,looking after children,DS
+1235,Marlene Dietrich,starring in Hollywood movies,CS
+1236,Thor Odinson,starting thunderstorms,DS
+1237,Anthony Scaramucci,making political gaffes,CS
+1238,Dirty Harry Callahan,tracking down criminals,DS
+1239,Frank Columbo,solving crimes,DS
+1240,Sophocles,writing plays,CS
+1241,Chelsea Manning,leaking state secrets,CS
+1242,William Randolph Hearst,running a media empire,CS
+1243,Sarah Silverman,doing stand-up,CS
+1244,Robert Langdon,studying symbols,DS
+1245,Ralph Nader,campaigning for consumer rights,CS
+1246,Bette Midler,singing torch songs,CS
+1247,Fletcher Christian,expressing dissent,CS
+1248,Robert Redford,starring in Hollywood movies,CS
+1249,Marie Curie,extracting Radium from pitchblend,CS
+1250,Dr. Greg House,solving mysteries,DS
+1251,Wilbur Wright,developing new technologies ,CS
+1252,Travis Bickle,expressing violent urges,DS
+1253,Brad Pitt,starring in Hollywood movies,CS
+1254,Dante Alighieri,writing poetry,CS
+1255,John Belushi,starring in madcap comedies,CS
+1256,Pinocchio,lying badly,DS
+1257,Mr. Miyagi,teaching martial arts,DS
+1258,Bear Grylls,eating bugs,CS
+1259,Orson Welles,directing Hollywood movies,CS
+1260,John McCain,running for the senate,CS
+1261,Roy Batty,looking for immortality,DS
+1262,Beetlejuice,practicing the Occult,DS
+1263,Johnny Depp,starring in Hollywood movies,CS
+1264,Michael Myers,terrorizing sleepers,DS
+1265,Cardinal Richelieu,plotting strategies,CS
+1266,Francis Bacon,painting dark pictures,CS
+1267,Thanos,devising evil schemes,DS
+1268,George Foreman,winning heavyweight titles,CS
+1269,Daenerys Targaryen,ruling over subjects,DS
+1270,Naomi Campbell,peacocking in fancy clothes,CS
+1271,Commander Data,piloting a spaceship,DS
+1272,Cary Grant,starring in romantic comedies,CS
+1273,Saddam Hussein,suppressing minorities,CS
+1274,R2D2,eluding imperial storm-troopers,DS
+1275,Fred Astaire,starring in romantic comedies,CS
+1276,Paris Hilton,monetizing celebrity status,CS
+1277,Kim Jong-Il,crushing dissent,CS
+1278,Ernest Hemingway,writing short stories,CS
+1279,Socrates,writing on wax tablets,CS
+1280,Lex Luthor,promoting greed,DS
+1281,Greta Garbo,starring in Hollywood movies,CS
+1282,Jimi Hendrix,singing rock songs,CS
+1283,Emperor Palpatine,running an empire,DS
+1284,Cher,singing pop songs,CS
+1285,John Calvin,promoting conservative values,CS
+1286,Saint Paul,promoting conservative values,CS
+1287,Pamela Anderson,monetizing physical assets,CS
+1288,Reince Priebus,promoting conservative values,CS
+1289,Keith Richards,playing rock music,CS
+1290,Alfred Nobel,promoting pacifism,CS
+1291,Daniel Craig,starring in action movies,CS
+1292,Jerry Seinfeld,doing stand-up,CS
+1293,Tyrion Lannister,developing political strategies,DS
+1294,Lee Marvin,starring in Hollywood movies,CS
+1295,Aung San Suu Kyi,campaigning for democracy,CS
+1296,Agent Smith,fighting the resistance,DS
+1297,Tony DiNozzo,solving mysteries,DS
+1298,Archimedes,studying mathematics,CS
+1299,Virginia Woolf,writing modern fiction,CS
+1300,Tyler Durden,stealing human fat,DS
+1301,Grace Jones,singing pop songs,CS
+1302,Juliet Capulet,watching the sun rise,DS
+1303,Savonarola,promoting conservative values,CS
+1304,Chewbacca,piloting the Millenium Falcon,DS
+1305,Tom Cruise,starring in Hollywood movies,CS
+1306,Marlon Brando,starring in Hollywood movies,CS
+1307,Daniel Boone,hunting raccoons,CS
+1308,Robert Downey Jr.,making movies,CS
+1309,Fidel Castro,running a dictatorship,CS
+1310,Carl Von Clausewitz,developing military strategies,CS
+1311,G. Gordon Liddy,promoting conservative values,CS
+1312,Charlie Brown,playing baseball,DS
+1313,Luciano Pavarotti,singing opera arias,CS
+1314,Adrian Monk,obsessively washing hands,DS
+1315,Sergey Brin,running a tech giant,CS
+1316,Patch Adams,treating the sick with jokes,CS
+1317,Peter Parker,studying science,DS
+1318,Winston Churchill,fighting against totalitarianism,CS
+1319,Romeo Montague,fighting in duels,DS
+1320,Professor James Moriarty,plotting criminal schemes,DS
+1321,James Comey,running a bureaucracy,CS
+1322,Atticus Finch,representing the disenfranchised,DS
+1323,Stevie Wonder,singing pop songs,CS
+1324,David Hasselhoff,starring in reality TV shows,CS
+1325,Ella Fitzgerald,singing torch songs,CS
+1326,Kal El,reporting the news,DS
+1327,Bob Belcher,flipping hamburgers,DS
+1328,Kurt Vonnegut,writing science fiction,CS
+1329,John Wilkes Booth,assassinating presidents,CS
+1330,Nicolas Sarkozy,partying on yachts,CS
+1331,Boy George,singing pop songs,CS
+1332,Federico Fellini,making new wave movies,CS
+1333,John Merrick,hiding from the public,CS
+1334,Joey Tribbiani,seducing women,DS
+1335,Jack Kerouac,writing beat fiction,CS
+1336,Paul McCartney,singing pop songs,CS
+1337,Voltaire,promoting liberal values,CS
+1338,Monica Lewinsky,conducting illicit affairs,CS
+1339,Morpheus,searching for the messiah,DS
+1340,Jack Bauer,chasing terrorists,DS
+1341,The Joker,causing mayhem,DS
+1342,Barry White,singing romantic songs,CS
+1343,Deadpool,foiling the schemes of evil villains,DS
+1344,Jim Jones,running a religious cult,CS
+1345,Emperor Caligula,terrorizing citizens,CS
+1346,Saruman the White,plotting with the enemy,DS
+1347,John Keats,writing romantic poetry,CS
+1348,Eddie Van Halen,playing rock music,CS
+1349,Mister Magoo,causing mayhem,DS
+1350,Hercule Poirot,solving crimes,DS
+1351,Lance Armstrong,taking anabolic steroids,CS
+1352,Edward Cullen,sucking blood,DS
+1353,Ted Cruz,promoting conservative values,CS
+1354,William Shakespeare,writing plays,CS
+1355,Mahatma Gandhi,promoting racial harmony,CS
+1356,Robin Hood,robbing from the rich,DS
+1357,Mr. Krabs,running a fast-food business,DS
+1358,Napoleon Solo,foiling the schemes of evil villains,DS
+1359,Professor Charles Xavier,teaching young mutants,DS
+1360,Nigella Lawson,cooking dinners,CS
+1361,Noah,building a wooden ark,CS
+1362,Trinity,hacking into corporate mainframes,DS
+1363,Albus Dumbledore,performing magic tricks,DS
+1364,Howard Hughes,running an empire,CS
+1365,Morgana Le Fay,performing magic tricks,DS
+1366,Gore Vidal,writing modern fiction,CS
+1367,Tina Turner,singing rock songs,CS
+1368,Charlie Chaplin,twirling a cane,CS
+1369,Grace Hopper,pioneering new technologies,CS
+1370,Julius Caesar,running an empire,CS
+1371,Niccolò Machiavelli,currying favour,CS
+1372,King Lear,going senile,DS
+1373,Judas Iscariot,betraying friends,CS
+1374,Adam Sandler,making dumb comedies,CS
+1375,James Brown,singing blues songs,CS
+1376,Chris Rock,cross-dressing in women's clothes,CS
+1377,Karen Carpenter,singing pop songs,CS
+1378,Jeremy Clarkson,hosting automotive shows,CS
+1379,Arnold Schwarzenegger,working out,CS
+1380,Ali G,interviewing celebrities,DS
+1381,Ross Geller,studying paleontology,DS
+1382,Lord Macbeth,grabbing power,DS
+1383,Tomás de Torquemada,extracting confessions,CS
+1384,Joseph Smith,searching for the messiah,CS
+1385,Justin Timberlake,entertaining teenagers,CS
+1386,Han Solo,piloting the Millenium Falcon,DS
+1387,El Chappo,running a criminal enterprise,CS
+1388,Leonardo Da Vinci,pioneering new technologies,CS
+1389,Lara Croft,looking for hidden treasures,DS
+1390,Barbie,promoting hair products,DS
+1391,Matt Drudge,promoting conservative values,CS
+1392,Cameron Diaz,starring in romantic comedies,CS
+1393,Henry Kissinger,brokering peace deals,CS
+1394,Linus Torvalds,developing open-source software,CS
+1395,Willy Wonka,running a business empire,DS
+1396,Ryan Reynolds,starring in Hollywood movies,CS
+1397,Steve Martin,performing stand-up,CS
+1398,Saga Norén,solving mysteries,DS
+1399,Carl Sagan,studying the cosmos,CS
+1400,Dorothy Parker,writing for the New Yorker,CS
+1401,Keith Moon,playing drums,CS
+1402,Matt Groening,writing comedy,CS
+1403,Ernst Stavro Blofeld,devising evil schemes,DS
+1404,Colonel Sanders,deep-frying chicken,CS
+1405,Harry Houdini,escaping from handcuffs,CS
+1406,Mel Gibson,making antisemitic remarks,CS
+1407,Lindsay Lohan, driving under the influence,CS
+1408,Robin Williams,telling zany jokes,CS
+1409,Benjamin Franklin,testing scientific theories,CS
+1410,Condoleezza Rice,advising on foreign affairs,CS
+1411,Baron Munchausen,telling tall tales,DS
+1412,Homer,writing epic poetry,CS
+1413,Billie Holiday,singing jazz songs,CS
+1414,Eminem,writing rap songs,CS
+1415,Tony Soprano,running a crime family,DS
+1416,"Wilson ""Kingpin"" Fisk",running a crime family,DS
+1417,Dr. Julius No,devising evil schemes,DS
+1418,Grace Kelly,dining with playboy princes,CS
+1419,Bing Crosby,singing middle-of-the-road songs,CS
+1420,Babe Ruth,hitting home runs,CS
+1421,Harry S. Truman,campaigning for the presidency,CS
+1422,Gerard Manley Hopkins,writing modern poetry,CS
+1423,Noam Chomsky,promoting political causes,CS
+1424,Brian Wilson,waxing a surfboard,CS
+1425,Don King,promoting boxing fights,CS
+1426,Jon Stewart,hosting a late night chat show,CS
+1427,Leo Tolstoy,writing Russian novels,CS
+1428,Britney Spears,flirting with rednecks,CS
+1429,Dr. Evil,demanding ransoms from the U.N.,DS
+1430,Gustavo Fring,selling chrystal meth,DS
+1431,George W. Bush, launching foreign wars,CS
+1432,Don Vito Corleone,running a crime family,DS
+1433,Tiny Tim Cratchit,offering blessings,DS
+1434,King Richard III,grabbing power,CS
+1435,Ronald McDonald,flipping hamburgers,DS
+1436,Thomas Jefferson,campaigning for democracy,CS
+1437,Samson,smiting Philistines,CS
+1438,Philip Marlowe,solving mysteries,DS
+1439,Lady Gaga,singing pop songs,CS
+1440,Kate Moss,modeling clothes,CS
+1441,Kanye West,singing Hipbop songs,CS
+1442,Theodore Roosevelt,campaigning for environmental causes,CS
+1443,Salman Rushdie,hiding from extremists,CS
+1444,Freddy Krueger,terrorizing sleepers,DS
+1445,Coco Chanel,designing haute couture,CS
+1446,Bette Davis,starring in Hollywood movies,CS
+1447,Megyn Kelly,promoting conservative values,CS
+1448,Eddy Merckx,pedalling furiously,CS
+1449,Pope Francis,promoting Catholic values,CS
+1450,Gary Larson,drawing whimsical cartoons,CS
+1451,Richard B. Riddick,evading mercenaries,DS
+1452,Austin Powers,foiling the schemes of evil villains,DS
+1453,Meryl Streep,speaking with funny accents,CS
+1454,Bill Murray,starring in indy movies,CS
+1455,Queen Elizabeth I,ruling over subjects,CS
+1456,James Franco,starring in Hollywood movies,CS
+1457,Jim Morrison,singing rock songs,CS
+1458,King Arthur,fighting with swords,CS
+1459,Adam West,wearing tights,CS

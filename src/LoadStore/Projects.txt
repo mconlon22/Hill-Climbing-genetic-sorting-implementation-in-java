@@ -1,2 +1,750 @@
-1000,hello,10,CS
-1001,hello,11,CS
+1630,teaching philosophy in CS 1,1210,CS
+1631,teaching philosophy in CS 2,1210,CS
+1632,teaching philosophy in CS 3,1210,CSDS
+1633,hacking into corporate mainframes in CS 1,1211,DS
+1634,hacking into corporate mainframes in CS 2,1211,DS
+1635,hacking into corporate mainframes in CS 3,1211,DS
+1636,writing poetry in CS 1,1212,CSDS
+1637,writing poetry in CS 2,1212,CSDS
+1638,writing poetry in CS 3,1212,CS
+1639,peacocking in fancy clothes in CS 1,1213,DS
+1640,peacocking in fancy clothes in CS 2,1213,DS
+1641,peacocking in fancy clothes in CS 3,1213,DS
+1642,playing basketball in CS 1,1214,CSDS
+1643,playing basketball in CS 2,1214,CSDS
+1644,playing basketball in CS 3,1214,CSDS
+1645,testing new technologies in CS 1,1215,DS
+1646,testing new technologies in CS 2,1215,DS
+1647,testing new technologies in CS 3,1215,DS
+1648,promoting humanism in CS 1,1216,CS
+1649,promoting humanism in CS 2,1216,CSDS
+1650,promoting humanism in CS 3,1216,CSDS
+1651,making ice sculptures in CS 1,1217,DS
+1652,making ice sculptures in CS 2,1217,DS
+1653,making ice sculptures in CS 3,1217,DS
+1654,promoting greed in CS 1,1218,DS
+1655,promoting greed in CS 2,1218,DS
+1656,promoting greed in CS 3,1218,DS
+1657,writing modern poetry in CS 1,1219,CSDS
+1658,writing modern poetry in CS 2,1219,CSDS
+1659,writing modern poetry in CS 3,1219,CSDS
+1660,seducing emperors in CS 1,1220,CS
+1661,seducing emperors in CS 2,1220,CS
+1662,seducing emperors in CS 3,1220,CS
+1663,slapping soldiers in CS 1,1221,CS
+1664,slapping soldiers in CS 2,1221,CS
+1665,slapping soldiers in CS 3,1221,CS
+1666,singing parody songs in CS 1,1222,CS
+1667,singing parody songs in CS 2,1222,CS
+1668,singing parody songs in CS 3,1222,CS
+1669,promoting conservative values in CS 1,1223,CSDS
+1670,promoting conservative values in CS 2,1223,CS
+1671,promoting conservative values in CS 3,1223,CS
+1672,delivering forehand slams in CS 1,1224,CSDS
+1673,delivering forehand slams in CS 2,1224,CSDS
+1674,delivering forehand slams in CS 3,1224,CSDS
+1675,interviewing celebrities in CS 1,1225,DS
+1676,interviewing celebrities in CS 2,1225,DS
+1677,interviewing celebrities in CS 3,1225,DS
+1678,studying mathematics in CS 1,1226,CSDS
+1679,studying mathematics in CS 2,1226,CSDS
+1680,studying mathematics in CS 3,1226,CSDS
+1681,seducing women in CS 1,1227,DS
+1682,seducing women in CS 2,1227,DS
+1683,seducing women in CS 3,1227,DS
+1684,singing Hipbop songs in CS 1,1228,CSDS
+1685,singing Hipbop songs in CS 2,1228,CS
+1686,singing Hipbop songs in CS 3,1228,CSDS
+1687,pulling capers in CS 1,1229,DS
+1688,pulling capers in CS 2,1229,DS
+1689,pulling capers in CS 3,1229,DS
+1690,devising evil schemes in CS 1,1230,DS
+1691,devising evil schemes in CS 2,1230,DS
+1692,devising evil schemes in CS 3,1230,DS
+1693,interviewing celebrities in CS 1,1231,CSDS
+1694,interviewing celebrities in CS 2,1231,CS
+1695,interviewing celebrities in CS 3,1231,CS
+1696,running a multinational corporation in CS 1,1232,CSDS
+1697,running a multinational corporation in CS 2,1232,CS
+1698,running a multinational corporation in CS 3,1232,CSDS
+1699,poisoning an apple in CS 1,1233,DS
+1700,poisoning an apple in CS 2,1233,DS
+1701,poisoning an apple in CS 3,1233,DS
+1702,looking after children in CS 1,1234,DS
+1703,looking after children in CS 2,1234,DS
+1704,looking after children in CS 3,1234,DS
+1705,starring in Hollywood movies in CS 1,1235,CSDS
+1706,starring in Hollywood movies in CS 2,1235,CSDS
+1707,starring in Hollywood movies in CS 3,1235,CSDS
+1708,starting thunderstorms in CS 1,1236,DS
+1709,starting thunderstorms in CS 2,1236,DS
+1710,starting thunderstorms in CS 3,1236,DS
+1711,making political gaffes in CS 1,1237,CSDS
+1712,making political gaffes in CS 2,1237,CS
+1713,making political gaffes in CS 3,1237,CSDS
+1714,tracking down criminals in CS 1,1238,DS
+1715,tracking down criminals in CS 2,1238,DS
+1716,tracking down criminals in CS 3,1238,DS
+1717,solving crimes in CS 1,1239,DS
+1718,solving crimes in CS 2,1239,DS
+1719,solving crimes in CS 3,1239,DS
+1720,writing plays in CS 1,1240,CS
+1721,writing plays in CS 2,1240,CS
+1722,writing plays in CS 3,1240,CS
+1723,leaking state secrets in CS 1,1241,CSDS
+1724,leaking state secrets in CS 2,1241,CSDS
+1725,leaking state secrets in CS 3,1241,CS
+1726,running a media empire in CS 1,1242,CSDS
+1727,running a media empire in CS 2,1242,CS
+1728,running a media empire in CS 3,1242,CS
+1729,doing stand-up in CS 1,1243,CS
+1730,doing stand-up in CS 2,1243,CSDS
+1731,doing stand-up in CS 3,1243,CSDS
+1732,studying symbols in CS 1,1244,DS
+1733,studying symbols in CS 2,1244,DS
+1734,studying symbols in CS 3,1244,DS
+1735,campaigning for consumer rights in CS 1,1245,CS
+1736,campaigning for consumer rights in CS 2,1245,CS
+1737,campaigning for consumer rights in CS 3,1245,CSDS
+1738,singing torch songs in CS 1,1246,CS
+1739,singing torch songs in CS 2,1246,CS
+1740,singing torch songs in CS 3,1246,CS
+1741,expressing dissent in CS 1,1247,CS
+1742,expressing dissent in CS 2,1247,CSDS
+1743,expressing dissent in CS 3,1247,CSDS
+1744,starring in Hollywood movies in CS 1,1248,CS
+1745,starring in Hollywood movies in CS 2,1248,CS
+1746,starring in Hollywood movies in CS 3,1248,CS
+1747,extracting Radium from pitchblend in CS 1,1249,CSDS
+1748,extracting Radium from pitchblend in CS 2,1249,CS
+1749,extracting Radium from pitchblend in CS 3,1249,CS
+1750,solving mysteries in CS 1,1250,DS
+1751,solving mysteries in CS 2,1250,DS
+1752,solving mysteries in CS 3,1250,DS
+1753,developing new technologies  in CS 1,1251,CS
+1754,developing new technologies  in CS 2,1251,CS
+1755,developing new technologies  in CS 3,1251,CS
+1756,expressing violent urges in CS 1,1252,DS
+1757,expressing violent urges in CS 2,1252,DS
+1758,expressing violent urges in CS 3,1252,DS
+1759,starring in Hollywood movies in CS 1,1253,CS
+1760,starring in Hollywood movies in CS 2,1253,CS
+1761,starring in Hollywood movies in CS 3,1253,CSDS
+1762,writing poetry in CS 1,1254,CS
+1763,writing poetry in CS 2,1254,CS
+1764,writing poetry in CS 3,1254,CS
+1765,starring in madcap comedies in CS 1,1255,CSDS
+1766,starring in madcap comedies in CS 2,1255,CS
+1767,starring in madcap comedies in CS 3,1255,CS
+1768,lying badly in CS 1,1256,DS
+1769,lying badly in CS 2,1256,DS
+1770,lying badly in CS 3,1256,DS
+1771,teaching martial arts in CS 1,1257,DS
+1772,teaching martial arts in CS 2,1257,DS
+1773,teaching martial arts in CS 3,1257,DS
+1774,eating bugs in CS 1,1258,CS
+1775,eating bugs in CS 2,1258,CS
+1776,eating bugs in CS 3,1258,CS
+1777,directing Hollywood movies in CS 1,1259,CS
+1778,directing Hollywood movies in CS 2,1259,CSDS
+1779,directing Hollywood movies in CS 3,1259,CS
+1780,running for the senate in CS 1,1260,CSDS
+1781,running for the senate in CS 2,1260,CS
+1782,running for the senate in CS 3,1260,CS
+1783,looking for immortality in CS 1,1261,DS
+1784,looking for immortality in CS 2,1261,DS
+1785,looking for immortality in CS 3,1261,DS
+1786,practicing the Occult in CS 1,1262,DS
+1787,practicing the Occult in CS 2,1262,DS
+1788,practicing the Occult in CS 3,1262,DS
+1789,starring in Hollywood movies in CS 1,1263,CS
+1790,starring in Hollywood movies in CS 2,1263,CSDS
+1791,starring in Hollywood movies in CS 3,1263,CS
+1792,terrorizing sleepers in CS 1,1264,DS
+1793,terrorizing sleepers in CS 2,1264,DS
+1794,terrorizing sleepers in CS 3,1264,DS
+1795,plotting strategies in CS 1,1265,CS
+1796,plotting strategies in CS 2,1265,CS
+1797,plotting strategies in CS 3,1265,CS
+1798,painting dark pictures in CS 1,1266,CS
+1799,painting dark pictures in CS 2,1266,CS
+1800,painting dark pictures in CS 3,1266,CSDS
+1801,devising evil schemes in CS 1,1267,DS
+1802,devising evil schemes in CS 2,1267,DS
+1803,devising evil schemes in CS 3,1267,DS
+1804,winning heavyweight titles in CS 1,1268,CS
+1805,winning heavyweight titles in CS 2,1268,CS
+1806,winning heavyweight titles in CS 3,1268,CS
+1807,ruling over subjects in CS 1,1269,DS
+1808,ruling over subjects in CS 2,1269,DS
+1809,ruling over subjects in CS 3,1269,DS
+1810,peacocking in fancy clothes in CS 1,1270,CS
+1811,peacocking in fancy clothes in CS 2,1270,CS
+1812,peacocking in fancy clothes in CS 3,1270,CS
+1813,piloting a spaceship in CS 1,1271,DS
+1814,piloting a spaceship in CS 2,1271,DS
+1815,piloting a spaceship in CS 3,1271,DS
+1816,starring in romantic comedies in CS 1,1272,CS
+1817,starring in romantic comedies in CS 2,1272,CS
+1818,starring in romantic comedies in CS 3,1272,CSDS
+1819,suppressing minorities in CS 1,1273,CSDS
+1820,suppressing minorities in CS 2,1273,CS
+1821,suppressing minorities in CS 3,1273,CSDS
+1822,eluding imperial storm-troopers in CS 1,1274,DS
+1823,eluding imperial storm-troopers in CS 2,1274,DS
+1824,eluding imperial storm-troopers in CS 3,1274,DS
+1825,starring in romantic comedies in CS 1,1275,CS
+1826,starring in romantic comedies in CS 2,1275,CS
+1827,starring in romantic comedies in CS 3,1275,CS
+1828,monetizing celebrity status in CS 1,1276,CS
+1829,monetizing celebrity status in CS 2,1276,CS
+1830,monetizing celebrity status in CS 3,1276,CS
+1831,crushing dissent in CS 1,1277,CS
+1832,crushing dissent in CS 2,1277,CS
+1833,crushing dissent in CS 3,1277,CSDS
+1834,writing short stories in CS 1,1278,CSDS
+1835,writing short stories in CS 2,1278,CSDS
+1836,writing short stories in CS 3,1278,CS
+1837,writing on wax tablets in CS 1,1279,CSDS
+1838,writing on wax tablets in CS 2,1279,CSDS
+1839,writing on wax tablets in CS 3,1279,CSDS
+1840,promoting greed in CS 1,1280,DS
+1841,promoting greed in CS 2,1280,DS
+1842,promoting greed in CS 3,1280,DS
+1843,starring in Hollywood movies in CS 1,1281,CSDS
+1844,starring in Hollywood movies in CS 2,1281,CS
+1845,starring in Hollywood movies in CS 3,1281,CS
+1846,singing rock songs in CS 1,1282,CS
+1847,singing rock songs in CS 2,1282,CS
+1848,singing rock songs in CS 3,1282,CSDS
+1849,running an empire in CS 1,1283,DS
+1850,running an empire in CS 2,1283,DS
+1851,running an empire in CS 3,1283,DS
+1852,singing pop songs in CS 1,1284,CS
+1853,singing pop songs in CS 2,1284,CS
+1854,singing pop songs in CS 3,1284,CSDS
+1855,promoting conservative values in CS 1,1285,CS
+1856,promoting conservative values in CS 2,1285,CS
+1857,promoting conservative values in CS 3,1285,CSDS
+1858,promoting conservative values in CS 1,1286,CSDS
+1859,promoting conservative values in CS 2,1286,CS
+1860,promoting conservative values in CS 3,1286,CS
+1861,monetizing physical assets in CS 1,1287,CS
+1862,monetizing physical assets in CS 2,1287,CS
+1863,monetizing physical assets in CS 3,1287,CSDS
+1864,promoting conservative values in CS 1,1288,CSDS
+1865,promoting conservative values in CS 2,1288,CS
+1866,promoting conservative values in CS 3,1288,CS
+1867,playing rock music in CS 1,1289,CS
+1868,playing rock music in CS 2,1289,CS
+1869,playing rock music in CS 3,1289,CS
+1870,promoting pacifism in CS 1,1290,CS
+1871,promoting pacifism in CS 2,1290,CSDS
+1872,promoting pacifism in CS 3,1290,CS
+1873,starring in action movies in CS 1,1291,CSDS
+1874,starring in action movies in CS 2,1291,CSDS
+1875,starring in action movies in CS 3,1291,CSDS
+1876,doing stand-up in CS 1,1292,CS
+1877,doing stand-up in CS 2,1292,CSDS
+1878,doing stand-up in CS 3,1292,CSDS
+1879,developing political strategies in CS 1,1293,DS
+1880,developing political strategies in CS 2,1293,DS
+1881,developing political strategies in CS 3,1293,DS
+1882,starring in Hollywood movies in CS 1,1294,CS
+1883,starring in Hollywood movies in CS 2,1294,CS
+1884,starring in Hollywood movies in CS 3,1294,CS
+1885,campaigning for democracy in CS 1,1295,CS
+1886,campaigning for democracy in CS 2,1295,CS
+1887,campaigning for democracy in CS 3,1295,CSDS
+1888,fighting the resistance in CS 1,1296,DS
+1889,fighting the resistance in CS 2,1296,DS
+1890,fighting the resistance in CS 3,1296,DS
+1891,solving mysteries in CS 1,1297,DS
+1892,solving mysteries in CS 2,1297,DS
+1893,solving mysteries in CS 3,1297,DS
+1894,studying mathematics in CS 1,1298,CS
+1895,studying mathematics in CS 2,1298,CS
+1896,studying mathematics in CS 3,1298,CS
+1897,writing modern fiction in CS 1,1299,CS
+1898,writing modern fiction in CS 2,1299,CS
+1899,writing modern fiction in CS 3,1299,CS
+1900,stealing human fat in CS 1,1300,DS
+1901,stealing human fat in CS 2,1300,DS
+1902,stealing human fat in CS 3,1300,DS
+1903,singing pop songs in CS 1,1301,CSDS
+1904,singing pop songs in CS 2,1301,CSDS
+1905,singing pop songs in CS 3,1301,CSDS
+1906,watching the sun rise in CS 1,1302,DS
+1907,watching the sun rise in CS 2,1302,DS
+1908,watching the sun rise in CS 3,1302,DS
+1909,promoting conservative values in CS 1,1303,CS
+1910,promoting conservative values in CS 2,1303,CS
+1911,promoting conservative values in CS 3,1303,CSDS
+1912,piloting the Millenium Falcon in CS 1,1304,DS
+1913,piloting the Millenium Falcon in CS 2,1304,DS
+1914,piloting the Millenium Falcon in CS 3,1304,DS
+1915,starring in Hollywood movies in CS 1,1305,CS
+1916,starring in Hollywood movies in CS 2,1305,CS
+1917,starring in Hollywood movies in CS 3,1305,CS
+1918,starring in Hollywood movies in CS 1,1306,CS
+1919,starring in Hollywood movies in CS 2,1306,CSDS
+1920,starring in Hollywood movies in CS 3,1306,CSDS
+1921,hunting raccoons in CS 1,1307,CSDS
+1922,hunting raccoons in CS 2,1307,CS
+1923,hunting raccoons in CS 3,1307,CS
+1924,making movies in CS 1,1308,CSDS
+1925,making movies in CS 2,1308,CSDS
+1926,making movies in CS 3,1308,CS
+1927,running a dictatorship in CS 1,1309,CS
+1928,running a dictatorship in CS 2,1309,CS
+1929,running a dictatorship in CS 3,1309,CSDS
+1930,developing military strategies in CS 1,1310,CSDS
+1931,developing military strategies in CS 2,1310,CSDS
+1932,developing military strategies in CS 3,1310,CS
+1933,promoting conservative values in CS 1,1311,CS
+1934,promoting conservative values in CS 2,1311,CS
+1935,promoting conservative values in CS 3,1311,CSDS
+1936,playing baseball in CS 1,1312,DS
+1937,playing baseball in CS 2,1312,DS
+1938,playing baseball in CS 3,1312,DS
+1939,singing opera arias in CS 1,1313,CSDS
+1940,singing opera arias in CS 2,1313,CSDS
+1941,singing opera arias in CS 3,1313,CSDS
+1942,obsessively washing hands in CS 1,1314,DS
+1943,obsessively washing hands in CS 2,1314,DS
+1944,obsessively washing hands in CS 3,1314,DS
+1945,running a tech giant in CS 1,1315,CS
+1946,running a tech giant in CS 2,1315,CSDS
+1947,running a tech giant in CS 3,1315,CS
+1948,treating the sick with jokes in CS 1,1316,CS
+1949,treating the sick with jokes in CS 2,1316,CSDS
+1950,treating the sick with jokes in CS 3,1316,CSDS
+1951,studying science in CS 1,1317,DS
+1952,studying science in CS 2,1317,DS
+1953,studying science in CS 3,1317,DS
+1954,fighting against totalitarianism in CS 1,1318,CS
+1955,fighting against totalitarianism in CS 2,1318,CSDS
+1956,fighting against totalitarianism in CS 3,1318,CS
+1957,fighting in duels in CS 1,1319,DS
+1958,fighting in duels in CS 2,1319,DS
+1959,fighting in duels in CS 3,1319,DS
+1960,plotting criminal schemes in CS 1,1320,DS
+1961,plotting criminal schemes in CS 2,1320,DS
+1962,plotting criminal schemes in CS 3,1320,DS
+1963,running a bureaucracy in CS 1,1321,CSDS
+1964,running a bureaucracy in CS 2,1321,CS
+1965,running a bureaucracy in CS 3,1321,CS
+1966,representing the disenfranchised in CS 1,1322,DS
+1967,representing the disenfranchised in CS 2,1322,DS
+1968,representing the disenfranchised in CS 3,1322,DS
+1969,singing pop songs in CS 1,1323,CS
+1970,singing pop songs in CS 2,1323,CS
+1971,singing pop songs in CS 3,1323,CSDS
+1972,starring in reality TV shows in CS 1,1324,CSDS
+1973,starring in reality TV shows in CS 2,1324,CSDS
+1974,starring in reality TV shows in CS 3,1324,CSDS
+1975,singing torch songs in CS 1,1325,CSDS
+1976,singing torch songs in CS 2,1325,CSDS
+1977,singing torch songs in CS 3,1325,CSDS
+1978,reporting the news in CS 1,1326,DS
+1979,reporting the news in CS 2,1326,DS
+1980,reporting the news in CS 3,1326,DS
+1981,flipping hamburgers in CS 1,1327,DS
+1982,flipping hamburgers in CS 2,1327,DS
+1983,flipping hamburgers in CS 3,1327,DS
+1984,writing science fiction in CS 1,1328,CS
+1985,writing science fiction in CS 2,1328,CS
+1986,writing science fiction in CS 3,1328,CS
+1987,assassinating presidents in CS 1,1329,CSDS
+1988,assassinating presidents in CS 2,1329,CS
+1989,assassinating presidents in CS 3,1329,CS
+1990,partying on yachts in CS 1,1330,CS
+1991,partying on yachts in CS 2,1330,CSDS
+1992,partying on yachts in CS 3,1330,CSDS
+1993,singing pop songs in CS 1,1331,CS
+1994,singing pop songs in CS 2,1331,CS
+1995,singing pop songs in CS 3,1331,CS
+1996,making new wave movies in CS 1,1332,CSDS
+1997,making new wave movies in CS 2,1332,CS
+1998,making new wave movies in CS 3,1332,CSDS
+1999,hiding from the public in CS 1,1333,CS
+2000,hiding from the public in CS 2,1333,CS
+2001,hiding from the public in CS 3,1333,CSDS
+2002,seducing women in CS 1,1334,DS
+2003,seducing women in CS 2,1334,DS
+2004,seducing women in CS 3,1334,DS
+2005,writing beat fiction in CS 1,1335,CSDS
+2006,writing beat fiction in CS 2,1335,CS
+2007,writing beat fiction in CS 3,1335,CSDS
+2008,singing pop songs in CS 1,1336,CS
+2009,singing pop songs in CS 2,1336,CS
+2010,singing pop songs in CS 3,1336,CSDS
+2011,promoting liberal values in CS 1,1337,CSDS
+2012,promoting liberal values in CS 2,1337,CSDS
+2013,promoting liberal values in CS 3,1337,CS
+2014,conducting illicit affairs in CS 1,1338,CSDS
+2015,conducting illicit affairs in CS 2,1338,CS
+2016,conducting illicit affairs in CS 3,1338,CSDS
+2017,searching for the messiah in CS 1,1339,DS
+2018,searching for the messiah in CS 2,1339,DS
+2019,searching for the messiah in CS 3,1339,DS
+2020,chasing terrorists in CS 1,1340,DS
+2021,chasing terrorists in CS 2,1340,DS
+2022,chasing terrorists in CS 3,1340,DS
+2023,causing mayhem in CS 1,1341,DS
+2024,causing mayhem in CS 2,1341,DS
+2025,causing mayhem in CS 3,1341,DS
+2026,singing romantic songs in CS 1,1342,CSDS
+2027,singing romantic songs in CS 2,1342,CS
+2028,singing romantic songs in CS 3,1342,CSDS
+2029,foiling the schemes of evil villains in CS 1,1343,DS
+2030,foiling the schemes of evil villains in CS 2,1343,DS
+2031,foiling the schemes of evil villains in CS 3,1343,DS
+2032,running a religious cult in CS 1,1344,CS
+2033,running a religious cult in CS 2,1344,CS
+2034,running a religious cult in CS 3,1344,CS
+2035,terrorizing citizens in CS 1,1345,CS
+2036,terrorizing citizens in CS 2,1345,CS
+2037,terrorizing citizens in CS 3,1345,CSDS
+2038,plotting with the enemy in CS 1,1346,DS
+2039,plotting with the enemy in CS 2,1346,DS
+2040,plotting with the enemy in CS 3,1346,DS
+2041,writing romantic poetry in CS 1,1347,CS
+2042,writing romantic poetry in CS 2,1347,CS
+2043,writing romantic poetry in CS 3,1347,CSDS
+2044,playing rock music in CS 1,1348,CSDS
+2045,playing rock music in CS 2,1348,CSDS
+2046,playing rock music in CS 3,1348,CSDS
+2047,causing mayhem in CS 1,1349,DS
+2048,causing mayhem in CS 2,1349,DS
+2049,causing mayhem in CS 3,1349,DS
+2050,solving crimes in CS 1,1350,DS
+2051,solving crimes in CS 2,1350,DS
+2052,solving crimes in CS 3,1350,DS
+2053,taking anabolic steroids in CS 1,1351,CS
+2054,taking anabolic steroids in CS 2,1351,CS
+2055,taking anabolic steroids in CS 3,1351,CS
+2056,sucking blood in CS 1,1352,DS
+2057,sucking blood in CS 2,1352,DS
+2058,sucking blood in CS 3,1352,DS
+2059,promoting conservative values in CS 1,1353,CS
+2060,promoting conservative values in CS 2,1353,CSDS
+2061,promoting conservative values in CS 3,1353,CS
+2062,writing plays in CS 1,1354,CSDS
+2063,writing plays in CS 2,1354,CSDS
+2064,writing plays in CS 3,1354,CSDS
+2065,promoting racial harmony in CS 1,1355,CS
+2066,promoting racial harmony in CS 2,1355,CS
+2067,promoting racial harmony in CS 3,1355,CSDS
+2068,robbing from the rich in CS 1,1356,DS
+2069,robbing from the rich in CS 2,1356,DS
+2070,robbing from the rich in CS 3,1356,DS
+2071,running a fast-food business in CS 1,1357,DS
+2072,running a fast-food business in CS 2,1357,DS
+2073,running a fast-food business in CS 3,1357,DS
+2074,foiling the schemes of evil villains in CS 1,1358,DS
+2075,foiling the schemes of evil villains in CS 2,1358,DS
+2076,foiling the schemes of evil villains in CS 3,1358,DS
+2077,teaching young mutants in CS 1,1359,DS
+2078,teaching young mutants in CS 2,1359,DS
+2079,teaching young mutants in CS 3,1359,DS
+2080,cooking dinners in CS 1,1360,CS
+2081,cooking dinners in CS 2,1360,CS
+2082,cooking dinners in CS 3,1360,CS
+2083,building a wooden ark in CS 1,1361,CSDS
+2084,building a wooden ark in CS 2,1361,CSDS
+2085,building a wooden ark in CS 3,1361,CSDS
+2086,hacking into corporate mainframes in CS 1,1362,DS
+2087,hacking into corporate mainframes in CS 2,1362,DS
+2088,hacking into corporate mainframes in CS 3,1362,DS
+2089,performing magic tricks in CS 1,1363,DS
+2090,performing magic tricks in CS 2,1363,DS
+2091,performing magic tricks in CS 3,1363,DS
+2092,running an empire in CS 1,1364,CSDS
+2093,running an empire in CS 2,1364,CS
+2094,running an empire in CS 3,1364,CS
+2095,performing magic tricks in CS 1,1365,DS
+2096,performing magic tricks in CS 2,1365,DS
+2097,performing magic tricks in CS 3,1365,DS
+2098,writing modern fiction in CS 1,1366,CSDS
+2099,writing modern fiction in CS 2,1366,CS
+2100,writing modern fiction in CS 3,1366,CS
+2101,singing rock songs in CS 1,1367,CS
+2102,singing rock songs in CS 2,1367,CS
+2103,singing rock songs in CS 3,1367,CSDS
+2104,twirling a cane in CS 1,1368,CSDS
+2105,twirling a cane in CS 2,1368,CSDS
+2106,twirling a cane in CS 3,1368,CSDS
+2107,pioneering new technologies in CS 1,1369,CS
+2108,pioneering new technologies in CS 2,1369,CS
+2109,pioneering new technologies in CS 3,1369,CS
+2110,running an empire in CS 1,1370,CS
+2111,running an empire in CS 2,1370,CS
+2112,running an empire in CS 3,1370,CS
+2113,currying favour in CS 1,1371,CS
+2114,currying favour in CS 2,1371,CS
+2115,currying favour in CS 3,1371,CSDS
+2116,going senile in CS 1,1372,DS
+2117,going senile in CS 2,1372,DS
+2118,going senile in CS 3,1372,DS
+2119,betraying friends in CS 1,1373,CSDS
+2120,betraying friends in CS 2,1373,CS
+2121,betraying friends in CS 3,1373,CS
+2122,making dumb comedies in CS 1,1374,CS
+2123,making dumb comedies in CS 2,1374,CS
+2124,making dumb comedies in CS 3,1374,CSDS
+2125,singing blues songs in CS 1,1375,CS
+2126,singing blues songs in CS 2,1375,CSDS
+2127,singing blues songs in CS 3,1375,CSDS
+2128,cross-dressing in women's clothes in CS 1,1376,CSDS
+2129,cross-dressing in women's clothes in CS 2,1376,CSDS
+2130,cross-dressing in women's clothes in CS 3,1376,CSDS
+2131,singing pop songs in CS 1,1377,CS
+2132,singing pop songs in CS 2,1377,CS
+2133,singing pop songs in CS 3,1377,CS
+2134,hosting automotive shows in CS 1,1378,CSDS
+2135,hosting automotive shows in CS 2,1378,CS
+2136,hosting automotive shows in CS 3,1378,CSDS
+2137,working out in CS 1,1379,CS
+2138,working out in CS 2,1379,CSDS
+2139,working out in CS 3,1379,CS
+2140,interviewing celebrities in CS 1,1380,DS
+2141,interviewing celebrities in CS 2,1380,DS
+2142,interviewing celebrities in CS 3,1380,DS
+2143,studying paleontology in CS 1,1381,DS
+2144,studying paleontology in CS 2,1381,DS
+2145,studying paleontology in CS 3,1381,DS
+2146,grabbing power in CS 1,1382,DS
+2147,grabbing power in CS 2,1382,DS
+2148,grabbing power in CS 3,1382,DS
+2149,extracting confessions in CS 1,1383,CS
+2150,extracting confessions in CS 2,1383,CSDS
+2151,extracting confessions in CS 3,1383,CS
+2152,searching for the messiah in CS 1,1384,CSDS
+2153,searching for the messiah in CS 2,1384,CSDS
+2154,searching for the messiah in CS 3,1384,CSDS
+2155,entertaining teenagers in CS 1,1385,CSDS
+2156,entertaining teenagers in CS 2,1385,CS
+2157,entertaining teenagers in CS 3,1385,CS
+2158,piloting the Millenium Falcon in CS 1,1386,DS
+2159,piloting the Millenium Falcon in CS 2,1386,DS
+2160,piloting the Millenium Falcon in CS 3,1386,DS
+2161,running a criminal enterprise in CS 1,1387,CSDS
+2162,running a criminal enterprise in CS 2,1387,CS
+2163,running a criminal enterprise in CS 3,1387,CS
+2164,pioneering new technologies in CS 1,1388,CS
+2165,pioneering new technologies in CS 2,1388,CS
+2166,pioneering new technologies in CS 3,1388,CSDS
+2167,looking for hidden treasures in CS 1,1389,DS
+2168,looking for hidden treasures in CS 2,1389,DS
+2169,looking for hidden treasures in CS 3,1389,DS
+2170,promoting hair products in CS 1,1390,DS
+2171,promoting hair products in CS 2,1390,DS
+2172,promoting hair products in CS 3,1390,DS
+2173,promoting conservative values in CS 1,1391,CSDS
+2174,promoting conservative values in CS 2,1391,CS
+2175,promoting conservative values in CS 3,1391,CSDS
+2176,starring in romantic comedies in CS 1,1392,CS
+2177,starring in romantic comedies in CS 2,1392,CS
+2178,starring in romantic comedies in CS 3,1392,CS
+2179,brokering peace deals in CS 1,1393,CSDS
+2180,brokering peace deals in CS 2,1393,CS
+2181,brokering peace deals in CS 3,1393,CSDS
+2182,developing open-source software in CS 1,1394,CS
+2183,developing open-source software in CS 2,1394,CS
+2184,developing open-source software in CS 3,1394,CSDS
+2185,running a business empire in CS 1,1395,DS
+2186,running a business empire in CS 2,1395,DS
+2187,running a business empire in CS 3,1395,DS
+2188,starring in Hollywood movies in CS 1,1396,CSDS
+2189,starring in Hollywood movies in CS 2,1396,CSDS
+2190,starring in Hollywood movies in CS 3,1396,CSDS
+2191,performing stand-up in CS 1,1397,CS
+2192,performing stand-up in CS 2,1397,CS
+2193,performing stand-up in CS 3,1397,CSDS
+2194,solving mysteries in CS 1,1398,DS
+2195,solving mysteries in CS 2,1398,DS
+2196,solving mysteries in CS 3,1398,DS
+2197,studying the cosmos in CS 1,1399,CS
+2198,studying the cosmos in CS 2,1399,CS
+2199,studying the cosmos in CS 3,1399,CSDS
+2200,writing for the New Yorker in CS 1,1400,CS
+2201,writing for the New Yorker in CS 2,1400,CSDS
+2202,writing for the New Yorker in CS 3,1400,CSDS
+2203,playing drums in CS 1,1401,CSDS
+2204,playing drums in CS 2,1401,CS
+2205,playing drums in CS 3,1401,CS
+2206,writing comedy in CS 1,1402,CS
+2207,writing comedy in CS 2,1402,CS
+2208,writing comedy in CS 3,1402,CS
+2209,devising evil schemes in CS 1,1403,DS
+2210,devising evil schemes in CS 2,1403,DS
+2211,devising evil schemes in CS 3,1403,DS
+2212,deep-frying chicken in CS 1,1404,CSDS
+2213,deep-frying chicken in CS 2,1404,CS
+2214,deep-frying chicken in CS 3,1404,CS
+2215,escaping from handcuffs in CS 1,1405,CSDS
+2216,escaping from handcuffs in CS 2,1405,CS
+2217,escaping from handcuffs in CS 3,1405,CSDS
+2218,making antisemitic remarks in CS 1,1406,CSDS
+2219,making antisemitic remarks in CS 2,1406,CS
+2220,making antisemitic remarks in CS 3,1406,CS
+2221, driving under the influence in CS 1,1407,CSDS
+2222, driving under the influence in CS 2,1407,CSDS
+2223, driving under the influence in CS 3,1407,CS
+2224,telling zany jokes in CS 1,1408,CS
+2225,telling zany jokes in CS 2,1408,CS
+2226,telling zany jokes in CS 3,1408,CS
+2227,testing scientific theories in CS 1,1409,CS
+2228,testing scientific theories in CS 2,1409,CS
+2229,testing scientific theories in CS 3,1409,CS
+2230,advising on foreign affairs in CS 1,1410,CS
+2231,advising on foreign affairs in CS 2,1410,CS
+2232,advising on foreign affairs in CS 3,1410,CS
+2233,telling tall tales in CS 1,1411,DS
+2234,telling tall tales in CS 2,1411,DS
+2235,telling tall tales in CS 3,1411,DS
+2236,writing epic poetry in CS 1,1412,CSDS
+2237,writing epic poetry in CS 2,1412,CS
+2238,writing epic poetry in CS 3,1412,CSDS
+2239,singing jazz songs in CS 1,1413,CS
+2240,singing jazz songs in CS 2,1413,CS
+2241,singing jazz songs in CS 3,1413,CSDS
+2242,writing rap songs in CS 1,1414,CSDS
+2243,writing rap songs in CS 2,1414,CSDS
+2244,writing rap songs in CS 3,1414,CSDS
+2245,running a crime family in CS 1,1415,DS
+2246,running a crime family in CS 2,1415,DS
+2247,running a crime family in CS 3,1415,DS
+2248,running a crime family in CS 1,1416,DS
+2249,running a crime family in CS 2,1416,DS
+2250,running a crime family in CS 3,1416,DS
+2251,devising evil schemes in CS 1,1417,DS
+2252,devising evil schemes in CS 2,1417,DS
+2253,devising evil schemes in CS 3,1417,DS
+2254,dining with playboy princes in CS 1,1418,CS
+2255,dining with playboy princes in CS 2,1418,CS
+2256,dining with playboy princes in CS 3,1418,CSDS
+2257,singing middle-of-the-road songs in CS 1,1419,CSDS
+2258,singing middle-of-the-road songs in CS 2,1419,CS
+2259,singing middle-of-the-road songs in CS 3,1419,CSDS
+2260,hitting home runs in CS 1,1420,CSDS
+2261,hitting home runs in CS 2,1420,CS
+2262,hitting home runs in CS 3,1420,CS
+2263,campaigning for the presidency in CS 1,1421,CS
+2264,campaigning for the presidency in CS 2,1421,CS
+2265,campaigning for the presidency in CS 3,1421,CS
+2266,writing modern poetry in CS 1,1422,CS
+2267,writing modern poetry in CS 2,1422,CS
+2268,writing modern poetry in CS 3,1422,CS
+2269,promoting political causes in CS 1,1423,CS
+2270,promoting political causes in CS 2,1423,CS
+2271,promoting political causes in CS 3,1423,CSDS
+2272,waxing a surfboard in CS 1,1424,CSDS
+2273,waxing a surfboard in CS 2,1424,CS
+2274,waxing a surfboard in CS 3,1424,CSDS
+2275,promoting boxing fights in CS 1,1425,CS
+2276,promoting boxing fights in CS 2,1425,CS
+2277,promoting boxing fights in CS 3,1425,CS
+2278,hosting a late night chat show in CS 1,1426,CSDS
+2279,hosting a late night chat show in CS 2,1426,CSDS
+2280,hosting a late night chat show in CS 3,1426,CS
+2281,writing Russian novels in CS 1,1427,CS
+2282,writing Russian novels in CS 2,1427,CS
+2283,writing Russian novels in CS 3,1427,CSDS
+2284,flirting with rednecks in CS 1,1428,CS
+2285,flirting with rednecks in CS 2,1428,CS
+2286,flirting with rednecks in CS 3,1428,CS
+2287,demanding ransoms from the U.N. in CS 1,1429,DS
+2288,demanding ransoms from the U.N. in CS 2,1429,DS
+2289,demanding ransoms from the U.N. in CS 3,1429,DS
+2290,selling chrystal meth in CS 1,1430,DS
+2291,selling chrystal meth in CS 2,1430,DS
+2292,selling chrystal meth in CS 3,1430,DS
+2293, launching foreign wars in CS 1,1431,CS
+2294, launching foreign wars in CS 2,1431,CSDS
+2295, launching foreign wars in CS 3,1431,CSDS
+2296,running a crime family in CS 1,1432,DS
+2297,running a crime family in CS 2,1432,DS
+2298,running a crime family in CS 3,1432,DS
+2299,offering blessings in CS 1,1433,DS
+2300,offering blessings in CS 2,1433,DS
+2301,offering blessings in CS 3,1433,DS
+2302,grabbing power in CS 1,1434,CS
+2303,grabbing power in CS 2,1434,CSDS
+2304,grabbing power in CS 3,1434,CS
+2305,flipping hamburgers in CS 1,1435,DS
+2306,flipping hamburgers in CS 2,1435,DS
+2307,flipping hamburgers in CS 3,1435,DS
+2308,campaigning for democracy in CS 1,1436,CSDS
+2309,campaigning for democracy in CS 2,1436,CSDS
+2310,campaigning for democracy in CS 3,1436,CS
+2311,smiting Philistines in CS 1,1437,CSDS
+2312,smiting Philistines in CS 2,1437,CSDS
+2313,smiting Philistines in CS 3,1437,CS
+2314,solving mysteries in CS 1,1438,DS
+2315,solving mysteries in CS 2,1438,DS
+2316,solving mysteries in CS 3,1438,DS
+2317,singing pop songs in CS 1,1439,CS
+2318,singing pop songs in CS 2,1439,CS
+2319,singing pop songs in CS 3,1439,CS
+2320,modeling clothes in CS 1,1440,CS
+2321,modeling clothes in CS 2,1440,CSDS
+2322,modeling clothes in CS 3,1440,CSDS
+2323,singing Hipbop songs in CS 1,1441,CS
+2324,singing Hipbop songs in CS 2,1441,CS
+2325,singing Hipbop songs in CS 3,1441,CS
+2326,campaigning for environmental causes in CS 1,1442,CS
+2327,campaigning for environmental causes in CS 2,1442,CS
+2328,campaigning for environmental causes in CS 3,1442,CS
+2329,hiding from extremists in CS 1,1443,CS
+2330,hiding from extremists in CS 2,1443,CSDS
+2331,hiding from extremists in CS 3,1443,CS
+2332,terrorizing sleepers in CS 1,1444,DS
+2333,terrorizing sleepers in CS 2,1444,DS
+2334,terrorizing sleepers in CS 3,1444,DS
+2335,designing haute couture in CS 1,1445,CS
+2336,designing haute couture in CS 2,1445,CS
+2337,designing haute couture in CS 3,1445,CS
+2338,starring in Hollywood movies in CS 1,1446,CS
+2339,starring in Hollywood movies in CS 2,1446,CSDS
+2340,starring in Hollywood movies in CS 3,1446,CSDS
+2341,promoting conservative values in CS 1,1447,CS
+2342,promoting conservative values in CS 2,1447,CS
+2343,promoting conservative values in CS 3,1447,CSDS
+2344,pedalling furiously in CS 1,1448,CS
+2345,pedalling furiously in CS 2,1448,CSDS
+2346,pedalling furiously in CS 3,1448,CS
+2347,promoting Catholic values in CS 1,1449,CS
+2348,promoting Catholic values in CS 2,1449,CSDS
+2349,promoting Catholic values in CS 3,1449,CS
+2350,drawing whimsical cartoons in CS 1,1450,CS
+2351,drawing whimsical cartoons in CS 2,1450,CSDS
+2352,drawing whimsical cartoons in CS 3,1450,CS
+2353,evading mercenaries in CS 1,1451,DS
+2354,evading mercenaries in CS 2,1451,DS
+2355,evading mercenaries in CS 3,1451,DS
+2356,foiling the schemes of evil villains in CS 1,1452,DS
+2357,foiling the schemes of evil villains in CS 2,1452,DS
+2358,foiling the schemes of evil villains in CS 3,1452,DS
+2359,speaking with funny accents in CS 1,1453,CSDS
+2360,speaking with funny accents in CS 2,1453,CS
+2361,speaking with funny accents in CS 3,1453,CSDS
+2362,starring in indy movies in CS 1,1454,CS
+2363,starring in indy movies in CS 2,1454,CS
+2364,starring in indy movies in CS 3,1454,CSDS
+2365,ruling over subjects in CS 1,1455,CS
+2366,ruling over subjects in CS 2,1455,CSDS
+2367,ruling over subjects in CS 3,1455,CS
+2368,starring in Hollywood movies in CS 1,1456,CS
+2369,starring in Hollywood movies in CS 2,1456,CSDS
+2370,starring in Hollywood movies in CS 3,1456,CS
+2371,singing rock songs in CS 1,1457,CS
+2372,singing rock songs in CS 2,1457,CS
+2373,singing rock songs in CS 3,1457,CS
+2374,fighting with swords in CS 1,1458,CS
+2375,fighting with swords in CS 2,1458,CS
+2376,fighting with swords in CS 3,1458,CS
+2377,wearing tights in CS 1,1459,CSDS
+2378,wearing tights in CS 2,1459,CS
+2379,wearing tights in CS 3,1459,CS
