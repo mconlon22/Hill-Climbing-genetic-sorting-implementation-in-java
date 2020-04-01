@@ -17,7 +17,7 @@ public class DataHandling {
 	List<StaffMember> staffMembers=new ArrayList<StaffMember>();
 	
 	public  void storeStudents()  {
-		File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\Students.txt");
+		File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/Students.txt");
 		FileWriter studentCsvWriter=null;
 		try {
 			studentCsvWriter = new FileWriter(file);
@@ -41,6 +41,21 @@ public class DataHandling {
 		try {
 			studentCsvWriter.close();
 		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public void testLoadStore() {
+		try {
+			load();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			save();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -88,7 +103,7 @@ public class DataHandling {
 		    }
 	}
 	public void storeProjects() throws IOException  {
-		File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\Projects.txt");
+		File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/Projects.txt");
 		FileWriter projectsCsvWriter=null;
 		try {
 			projectsCsvWriter = new FileWriter(file);
@@ -117,7 +132,7 @@ public class DataHandling {
 		System.out.println("saving");
 		FileWriter staffMembersCsvWriter=null;
 		try {
-			File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\StaffMembers.txt");
+			File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/StaffMembers.txt");
 
 			staffMembersCsvWriter = new FileWriter(file);
 		} catch (IOException e) {
@@ -139,7 +154,7 @@ public class DataHandling {
 		
 	}
 	public void loadStaffMembers() throws IOException {
-		File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\StaffMembers.txt");
+		File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/StaffMembers.txt");
 
 		BufferedReader staffCsvReader = new BufferedReader(new FileReader(file));
 		String row;
@@ -152,19 +167,23 @@ public class DataHandling {
 		staffCsvReader.close();
 	}
 public void loadProjects() throws IOException {
-	File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\Projects.txt");
+	File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/Projects.txt");
 
 		BufferedReader projectCsvReader = new BufferedReader(new FileReader(file));
 		String row; 
 		while ((row = projectCsvReader.readLine()) != null) {
 		    String[] data = row.split(",");
-		    Project project=new Project(Integer.parseInt(data[0]),data[1],findStaffMember(Integer.parseInt(data[2])),data[3]);
+		    int projectId=Integer.parseInt(data[0]);
+		    String projectTitle=data[1];
+		    StaffMember supervisorId = findStaffMember(Integer.parseInt(data[2]));
+		    String projectArea = data[3];
+		    Project project=new Project(projectId,projectTitle,supervisorId,projectArea);
 		    projects.add(project);
 		}
 		projectCsvReader.close();
 	}
 public void loadStudents() throws IOException {
-	File file=new File("C:\\Users\\marti\\eclipse-workspace\\LoadStore\\src\\LoadStore\\Students.txt");
+	File file=new File("/Users/martinconlon/git/SoftWare-Engineering/src/LoadStore/Students.txt");
 
 	BufferedReader studentCsvReader = new BufferedReader(new FileReader(file));
 	String row;
