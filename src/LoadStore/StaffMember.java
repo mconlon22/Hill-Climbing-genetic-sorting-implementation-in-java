@@ -57,4 +57,7 @@ private int id;
     public String toCsvString() {
     	return id+"," +fullName+","+researchActivity+","+specialFocus.toString()+"\n";
     }
+    public String toString() {
+    	return id+"," +fullName+","+researchActivity+","+specialFocus.toString()+"\n";
+    }
 }

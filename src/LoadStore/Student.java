@@ -45,4 +45,12 @@ public class Student {
     	}
     	return fullName+","+id+","+specialFocus.toString()+","+preferenceString+"\n";
     }
+    public String toString() {
+    	String preferenceString="";
+    	for (int i = 0; i < projectPreferences.size(); i++) {
+    		preferenceString+=projectPreferences.get(i).getTitle()+",";
+    	}
+    	
+    	return fullName+","+id+","+specialFocus.toString()+","+preferenceString+"\n";
+    }
 }
