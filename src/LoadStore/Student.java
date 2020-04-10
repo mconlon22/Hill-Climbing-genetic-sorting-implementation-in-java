@@ -10,6 +10,7 @@ public class Student {
     private int id;
     private SpecialFocus specialFocus;
     private List<Project> projectPreferences = new LinkedList<>();
+    private double GPA;
 
     public Student(String fullName, int id, SpecialFocus specialFocus, List<Project> preferences) {
         this.fullName = fullName; 
