@@ -9,8 +9,8 @@ import LoadStore.Student;
 
 public class StudentProjectAllocation {
 	int candidateId;
-	Student student;
-	public Project project;
+	private Student student;
+	private Project project;
 
 	private static AtomicInteger ID_GENERATOR = new AtomicInteger(1000);
 
@@ -33,4 +33,25 @@ public class StudentProjectAllocation {
 		return candidateId+","+student.getId()+"," +project.getId()+"\n";
 	}
 
+	public int getCandidateId() {
+		return candidateId;
+	}
+
+	public Student getStudent() {
+		return student;
+	}
+
+	public void setStudent(Student student) {
+		this.student = student;
+	}
+
+	public Project getProject() {
+		return project;
+	}
+
+	public void setProject(Project project) {
+		this.project = project;
+	}
+
+	
 }

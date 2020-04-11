@@ -10,17 +10,28 @@ public class Student {
     private int id;
     private SpecialFocus specialFocus;
     private List<Project> projectPreferences = new LinkedList<>();
-    private double GPA;
+    private double gpa;
 
     public Student(String fullName, int id, SpecialFocus specialFocus, List<Project> preferences) {
         this.fullName = fullName; 
         this.id = id;
         this.specialFocus = specialFocus;
         this.projectPreferences = preferences;
+        this.gpa =0;
     }
     
 
-    public String getFullName() {
+    public double getGpa() {
+		return gpa;
+	}
+
+
+	public void setGpa(double gpa) {
+		this.gpa = gpa;
+	}
+
+
+	public String getFullName() {
         return fullName;
     }
 

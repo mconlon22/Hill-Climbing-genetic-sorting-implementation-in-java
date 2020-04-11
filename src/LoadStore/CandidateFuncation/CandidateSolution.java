@@ -9,20 +9,22 @@ import LoadStore.Project;
 import LoadStore.Student;
 public class CandidateSolution implements Comparable< CandidateSolution >{
     private List<StudentProjectAllocation> candidateSolution= new ArrayList<>();
-    private Integer energyValue;
+    private Double energyValue;
     Random rand=new Random();
     EnergyFunction energy=new EnergyFunction();
+    FitnessFunction fitness=new FitnessFunction();
+    
     public CandidateSolution(List<Student> students){
 		for(Student student : students) {
             System.out.println("id"+student.getId());
-		    int random = rand.nextInt(10);
-		Project randomProject=student.getProjectPreferences().get(random);
-        StudentProjectAllocation candidate=new StudentProjectAllocation(student,randomProject);
-        System.out.println(candidate.candidateId);
+		    Project randomProject=student.getProjectPreferences().get(rand.nextInt(10));
+		    StudentProjectAllocation candidate=new StudentProjectAllocation(student,randomProject);
+		    System.out.println(candidate.candidateId);
 
-		candidateSolution.add(candidate);
+		    candidateSolution.add(candidate);
         }
-        energyValue=energy.checkHardconstraints(candidateSolution);
+        energyValue=energy.checkEnergy(candidateSolution);
+        System.out.println("Fitness: "+ fitness.checkFitness(candidateSolution));
     }
 
     @Override
@@ -30,15 +32,23 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
         return this.energyValue.compareTo(o.energyValue);
     }
 
-    public Integer getEnergyValue() {
+    public double getEnergyValue() {
         return energyValue;
     }
 
-    public void setEnergyValue(Integer energyValue) {
+    public void setEnergyValue(Double energyValue) {
         this.energyValue = energyValue;
     }
     
+    public void change(List<Project> projects) {
+    	for (int i = 0; i < projects.size()/10; i++) {
+    		Project randomProject=projects.get(rand.nextInt(projects.size()));
+        	this.candidateSolution.get(i).setProject(randomProject);
+        	setEnergyValue(energy.checkEnergy(candidateSolution));
+		}
     }
+    
+}
 	
 
 

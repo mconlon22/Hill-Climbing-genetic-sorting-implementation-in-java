@@ -19,10 +19,10 @@ public class DataHandling implements data {
 
 	List<Project> projects=new ArrayList<Project>();
 	List<StaffMember> staffMembers=new ArrayList<StaffMember>();
-	String projectPath="C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Projects.csv";
-	String studentsPath="C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Students.csv";
-	String staffPath="C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\StaffMembers.csv";
-	String candidatePath="C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Candidates.csv";
+	String projectPath="src/LoadStore/csvdata/Projects.csv";
+	String studentsPath="src/LoadStore/csvdata/Students.csv";
+	String staffPath="src/LoadStore/csvdata/StaffMembers.csv";
+	String candidatePath="src/LoadStore/csvdata/Candidates.csv";
 	
 	/*
 	Storing Students to csv
