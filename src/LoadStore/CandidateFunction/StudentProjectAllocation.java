@@ -1,4 +1,4 @@
-package LoadStore.CandidateFuncation;
+package LoadStore.CandidateFunction;
 
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -11,6 +11,8 @@ public class StudentProjectAllocation {
 	int candidateId;
 	private Student student;
 	private Project project;
+	Random rand=new Random();
+	
 
 	private static AtomicInteger ID_GENERATOR = new AtomicInteger(1000);
 
@@ -51,6 +53,9 @@ public class StudentProjectAllocation {
 
 	public void setProject(Project project) {
 		this.project = project;
+	}
+	public void changeProjectAllocation(){
+		this.project=student.getProjectPreferences().get(rand.nextInt(10));
 	}
 
 	

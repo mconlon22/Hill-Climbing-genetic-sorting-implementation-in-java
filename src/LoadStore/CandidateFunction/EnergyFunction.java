@@ -1,4 +1,4 @@
-package LoadStore.CandidateFuncation;
+package LoadStore.CandidateFunction;
 
 import java.util.HashSet;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.lang.Math;
 
 import LoadStore.ProjectArea;
 import LoadStore.SpecialFocus;
-import LoadStore.CandidateFuncation.StudentProjectAllocation;
+import LoadStore.CandidateFunction.StudentProjectAllocation;
 
 public class EnergyFunction {
 
@@ -16,11 +16,16 @@ checking for duplicate projects
 */
 	public double checkEnergy(List<StudentProjectAllocation> candidates) {
 		double energy = 0;
-		energy += checkNumOfDuplicates(candidates);
+		energy += checkNumOfDuplicates(candidates)*2;
 		energy += checkForMismatchingStream(candidates);
 		energy += checkNumOfProjectsNotPreferred(candidates);
 		energy += checkAveragePreferenceForProject(candidates);
 		return energy;
+	}
+	public void energyString(List<StudentProjectAllocation> candidates) {
+		double energy = 0;
+		System.out.println("numDuplicates:" + checkNumOfDuplicates(candidates)+"\n MismatchingStream:"+ checkForMismatchingStream(candidates)+"\n NumOfProjectsNotPreferred"+ checkNumOfProjectsNotPreferred(candidates)+"\n checkAveragePreferenceForProject"+checkAveragePreferenceForProject(candidates));
+		
 	}
 	
 	public int checkNumOfDuplicates(List<StudentProjectAllocation> candidates){
@@ -31,7 +36,6 @@ checking for duplicate projects
 	            numDuplicates++;
 	        }
 	    } 
-	    System.out.println("numDuplicates:" +numDuplicates);
 	
 	    return numDuplicates;
 	}
@@ -51,7 +55,6 @@ checking for duplicate projects
 				}
 			}
 	    }
-		System.out.println("numMismatches: " + numMismatches);
 		return numMismatches;
 	}
 	
@@ -65,7 +68,6 @@ checking for duplicate projects
 	        	numProjects++;
 	        }
 	    }
-		System.out.println("numProjectsNotPreferred: " + numProjects);
 		return numProjects;
 	}
 	
@@ -84,7 +86,6 @@ checking for duplicate projects
 	    }
 		
 		double avg = (double) preferenceSum/candidates.size();
-		System.out.println("averagePref: " + avg);
 		return avg;
 	}
 	

@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import LoadStore.CandidateFuncation.StudentProjectAllocation;
+import LoadStore.CandidateFunction.StudentProjectAllocation;
 
 public class DataHandling implements data {
 
@@ -321,7 +321,9 @@ private void loadCandidates() throws IOException {
 	while ((row = candidateCsvReader.readLine()) != null) {
 	    String[] data = row.split(",");
 
-	    StudentProjectAllocation candidate=new StudentProjectAllocation(Integer.parseInt(data[0]),findStudent(Integer.parseInt(data[1])),findProject(Integer.parseInt(data[2])));
+	    LoadStore.CandidateFunction.StudentProjectAllocation candidate = new StudentProjectAllocation(
+				Integer.parseInt(data[0]), findStudent(Integer.parseInt(data[1])),
+				findProject(Integer.parseInt(data[2])));
 	    candidates.add(candidate);
 	}
 	candidateCsvReader.close();
