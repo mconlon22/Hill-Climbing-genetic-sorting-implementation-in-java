@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - main",
             "request": "launch",
+            "mainClass": "LoadStore.main",
+            "projectName": "LoadStore"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
             "mainClass": "LoadStore/LoadStore.main",
             "projectName": "LoadStore"
         },

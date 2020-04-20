@@ -34,7 +34,7 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
         return this.energyValue.compareTo(o.energyValue);
     }
 
-    public double getEnergyValue() {
+    public Double getEnergyValue() {
         return energyValue;
     }
 
@@ -49,14 +49,17 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
         	setEnergyValue(energy.checkEnergy(studentProjectAllocations));
 		}
     }
-    public void randomChange() {
-       //System.out.println("randomChange");
+    public void randomChange(int numChanges) {
+       for(int i=0;i<numChanges;i++){
         studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
-        studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
+       }
+
+
+
         
     }
 
-    public double checkEnergy(){
+    public Double checkEnergy(){
         return energy.checkEnergy(studentProjectAllocations);
     }
 
