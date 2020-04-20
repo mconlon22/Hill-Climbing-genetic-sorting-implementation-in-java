@@ -5,15 +5,29 @@ import LoadStore.CandidateFunction.CandidateSolution;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+import javax.xml.stream.events.Comment;
+
+
+
 public class HillClimbing {
     public CandidateSolution candidate;
     String analysisString="";
     double stalenessFactor=15;
     private static DecimalFormat df2 = new DecimalFormat("#.##");
     int temperature= 1000;
-        HillClimbing(CandidateSolution candidate){
+    /*C:\Users\marti\git\SoftWare-Engineering\src\LoadStore\DataHandling.java
+     * constructor
+     * @param candidate
+    */
+    HillClimbing(CandidateSolution candidate)
+    {
         this.candidate=candidate;
     }
+     /*
+     * Hill Climbing method
+     * @param candidate
+    */ 
+    
     public void startHillClimbing(){
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter number of epochs");

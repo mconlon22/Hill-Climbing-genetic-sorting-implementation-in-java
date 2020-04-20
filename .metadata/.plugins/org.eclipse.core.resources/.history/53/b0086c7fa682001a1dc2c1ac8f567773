@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package LoadStore;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import LoadStore.CandidateFunction.CandidateSolution;
+/**
+ * @author marti
+ *
+ */
+public class HillClimbingTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		DataHandling data=new DataHandling();
+		 data.load();
+		 CandidateSolution candidate=new CandidateSolution(data.students);
+	}
+
+	@Test
+	public void testCheckAcceptance() 
+	{
+		for(int i=0;i<15;i+=1) {
+			assertEquals(.9999,boltzman(2,3^(i)));
+			
+		}
+}
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

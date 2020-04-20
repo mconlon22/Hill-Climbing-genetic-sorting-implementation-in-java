@@ -13,6 +13,7 @@ public class main {
 	 
 		HillClimbing hillClimbing=new HillClimbing(candidate);
 		hillClimbing.startHillClimbing();
+		
 	}
 	
 

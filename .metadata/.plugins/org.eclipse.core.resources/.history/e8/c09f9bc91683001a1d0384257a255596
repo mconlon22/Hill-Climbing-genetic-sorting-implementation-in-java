@@ -1,0 +1,9 @@
+/*~~ Team Random ~~
+Martin Conlon - 16403502
+Martynas Dra�d�iulis - 17444044
+
+~~ Task 5 ~~
+-Implemented a hillClimbing method which gradually improves the energy of our solution
+-The main issue we had was the way to structure accepting worsening random changes we found that on average we improved 1/20 times and that the average 
+improvenent was only .675 as opposed to our average worsening of energy of 2.6 meaning that to be improving at a steady rate we need to have a relatively low chance of 
+accepting a worsening change because of this we implemented a staleness factor which regulates the temperature based on whether the solution is improving or not 

@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+import LoadStore.CandidateFunction.CandidateSolution;
 import LoadStore.CandidateFunction.StudentProjectAllocation;
 
 public class DataHandling implements data {
@@ -254,7 +255,6 @@ public void save() {
 		storeStaffMembers();
 		storeProjects();
 		storeStudents();
-		saveCandidates();
 		
 	} catch (IOException e) {
 		e.printStackTrace();
@@ -289,13 +289,21 @@ public List<StaffMember> getStaff() {
 /*
 Save candidates function 
 */
-public void saveCandidates() throws IOException
+public void saveCandidate(CandidateSolution candidateSolution) throws IOException
 {
-	File file=new File(candidatePath);
-	FileWriter candidateCsvWriter= new FileWriter(file);
-;
+	String fileSeparator = System.getProperty("file.separator");
+	String relativePath="";
+     for (int i=0;i<10;i++){
+		relativePath = "tmp"+fileSeparator+"file"+i+".txt";
+		File file = new File(relativePath);
+        if(file.createNewFile()){
+			System.out.println(relativePath+" File Created in Project root directory");
+			break;
+        }else System.out.println("File "+relativePath+" already exists in the project root directory");
+	 }
+	FileWriter candidateCsvWriter= new FileWriter(relativePath);
 
-	for(StudentProjectAllocation candidate: candidates) {
+	for(StudentProjectAllocation candidate: candidateSolution.getStudentProjectAllocations()) {
 
 		try {
 			candidateCsvWriter.append(candidate.toCsvString());

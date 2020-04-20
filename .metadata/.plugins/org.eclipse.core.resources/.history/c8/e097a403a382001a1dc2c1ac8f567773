@@ -1,0 +1,5 @@
+package LoadStore;
+
+public interface HillClimb {
+
+}
