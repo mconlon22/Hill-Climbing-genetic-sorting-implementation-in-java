@@ -31,6 +31,7 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 
     @Override
     public int compareTo(CandidateSolution o) {
+
         return this.energyValue.compareTo(o.energyValue);
     }
 
@@ -38,25 +39,23 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
         return energyValue;
     }
 
-    public void setEnergyValue(Double energyValue) {
-        this.energyValue = energyValue;
+    public void updateEnergyValue() {
+        this.energyValue=energy.checkEnergy(studentProjectAllocations);
     }
     
     public void change(List<Project> projects) {
     	for (int i = 0; i < projects.size()/10; i++) {
     		Project randomProject=projects.get(rand.nextInt(projects.size()));
         	this.studentProjectAllocations.get(i).setProject(randomProject);
-        	setEnergyValue(energy.checkEnergy(studentProjectAllocations));
-		}
+            updateEnergyValue();
+        }
     }
     public void randomChange(int numChanges) {
        for(int i=0;i<numChanges;i++){
         studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
-       }
-
-
-
         
+       }
+       updateEnergyValue();
     }
 
     public Double checkEnergy(){
