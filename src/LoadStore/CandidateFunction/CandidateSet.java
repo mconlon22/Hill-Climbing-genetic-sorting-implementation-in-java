@@ -30,7 +30,6 @@ public class CandidateSet {
 	    Collections.sort(candidateSet);
 	    for(int i=0;i<100;i++){
 	    	top100.add(candidateSet.get(i));
-	    	System.out.println("energy:"+candidateSet.get(i).getEnergyValue());
 	    }
 	    return top100;
 	}
