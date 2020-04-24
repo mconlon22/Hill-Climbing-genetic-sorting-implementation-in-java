@@ -11,10 +11,12 @@ public class main {
 	 DataHandling data=new DataHandling();
 	 data.load();
 		CandidateSet candidateSet=new CandidateSet(data.students);
-		while(true){
-		candidateSet.mateCandidates();
-		}
-		
+		candidateSet.outputTop10();
+		candidateSet.candidateSetTest();
+		geneticAlgorithem algorithem=new geneticAlgorithem(candidateSet);
+		algorithem.mateCandidates();
+		candidateSet.outputTop10();
+
 		
 	}
 	

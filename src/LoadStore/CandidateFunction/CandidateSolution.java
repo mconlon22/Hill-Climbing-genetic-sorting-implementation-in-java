@@ -22,7 +22,6 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 		    studentProjectAllocations.add(candidate);
         }
         energyValue=energy.checkEnergy(studentProjectAllocations);
-        System.out.println("Fitness: "+ fitness.checkFitness(studentProjectAllocations));
     }
     public CandidateSolution(){
        // System.out.println("new candidate");
@@ -31,7 +30,12 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 
     @Override
     public int compareTo(CandidateSolution o) {
+        o.updateEnergyValue();
+        updateEnergyValue();
+        if(o.energyValue==null){
 
+            System.out.println("null pointer");
+        }
         return this.energyValue.compareTo(o.energyValue);
     }
 
