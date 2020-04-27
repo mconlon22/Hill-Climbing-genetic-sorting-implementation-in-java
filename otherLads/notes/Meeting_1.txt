@@ -1,0 +1,22 @@
+- Assigning students to projects with supervisiors 
+- Staff propose three projects
+- Students rank their top ten in a way that minimizes regret (see marriage problem?) 
+- We'll be using using an objective function. In a genetic function, the objective 
+  function is the fitness of an algorithm 
+- Minimize energy and maximize fitness 
+- There'll be a lot of testing involved 
+
+Week 1: Getting Test Data 
+- Need to get test data to resemble the problem 
+- Assume normal distrabution: x-axis is project ID (more central project higher probability it will 
+be picked) 
+- Will be released on Friday 
+- Come up with test sets for 60, 120, 240, 500
+- Test set has two parts: project names and supervisors, and 10 sets of preferences for students 
+- 30 Staff members proposing 90 projects (for 60 students) 
+- Test data will be invented (think about randomly generating names) 
+- Lecture numbers scale with student numbers 
+- Two types of modules (CS and DS) 
+
+Week 2: Product Backlog 
+- Fill in details of the whitepaper (using t-shirt sizes to fill in details) 

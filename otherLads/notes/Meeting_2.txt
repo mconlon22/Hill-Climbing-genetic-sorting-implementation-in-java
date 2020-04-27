@@ -1,0 +1,6 @@
+- Don't use "magic numbers". Define constants or use config files. 
+
+- Use light commenting 
+  - Don't state the obvious
+  - Use comments to state assumptions that you make when typing the code 
+  - Use good naming 

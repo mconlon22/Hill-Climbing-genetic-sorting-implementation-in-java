@@ -22,7 +22,6 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 		    studentProjectAllocations.add(candidate);
         }
         energyValue=energy.checkEnergy(studentProjectAllocations);
-        System.out.println("Fitness: "+ fitness.checkFitness(studentProjectAllocations));
     }
     public CandidateSolution(){
        // System.out.println("new candidate");
@@ -31,32 +30,39 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 
     @Override
     public int compareTo(CandidateSolution o) {
+        o.updateEnergyValue();
+        updateEnergyValue();
+        if(o.energyValue==null){
+
+            System.out.println("null pointer");
+        }
         return this.energyValue.compareTo(o.energyValue);
     }
 
-    public double getEnergyValue() {
+    public Double getEnergyValue() {
         return energyValue;
     }
 
-    public void setEnergyValue(Double energyValue) {
-        this.energyValue = energyValue;
+    public void updateEnergyValue() {
+        this.energyValue=energy.checkEnergy(studentProjectAllocations);
     }
     
     public void change(List<Project> projects) {
     	for (int i = 0; i < projects.size()/10; i++) {
     		Project randomProject=projects.get(rand.nextInt(projects.size()));
         	this.studentProjectAllocations.get(i).setProject(randomProject);
-        	setEnergyValue(energy.checkEnergy(studentProjectAllocations));
-		}
+            updateEnergyValue();
+        }
     }
-    public void randomChange() {
-       //System.out.println("randomChange");
-        studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
+    public void randomChange(int numChanges) {
+       for(int i=0;i<numChanges;i++){
         studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
         
+       }
+       updateEnergyValue();
     }
 
-    public double checkEnergy(){
+    public Double checkEnergy(){
         return energy.checkEnergy(studentProjectAllocations);
     }
 

@@ -1,9 +1,9 @@
-~~ Team Random ~~
+/*~~ Team Random Blue Dogs ~~
 Martin Conlon - 16403502
-Martynas Draždžiulis - 17444044
+Martynas Draï¿½dï¿½iulis - 17444044
+Shrey Rastogi - 17203488
 
-~~ Task 4 ~~
--Implemented an energy function that considers hard and soft constraints
--Implemented a fitness function that considers hard and soft constraints
--Some testing done on both functions
--Change function and gpa constraint need more work
+~~ Task 6 ~~
+- Implemented classes for mating of two candidate solution.
+- Changed the mating strategy for the generic algorithm.
+- Possible changes for this assignment have been done in CandidateSolution.java , CandidateSet.java and genericAlgorithm.java

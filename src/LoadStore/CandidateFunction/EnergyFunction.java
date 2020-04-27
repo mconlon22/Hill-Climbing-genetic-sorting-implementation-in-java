@@ -6,7 +6,6 @@ import java.lang.Math;
 
 import LoadStore.ProjectArea;
 import LoadStore.SpecialFocus;
-import LoadStore.CandidateFunction.StudentProjectAllocation;
 
 public class EnergyFunction {
 
@@ -14,7 +13,7 @@ public class EnergyFunction {
 /*
 checking for duplicate projects
 */
-	public double checkEnergy(List<StudentProjectAllocation> candidates) {
+	public Double checkEnergy(List<StudentProjectAllocation> candidates) {
 		double energy = 0;
 		energy += checkNumOfDuplicates(candidates)*2;
 		energy += checkForMismatchingStream(candidates);
