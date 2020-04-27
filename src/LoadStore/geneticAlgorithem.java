@@ -16,7 +16,7 @@ public class geneticAlgorithem {
 		this.candidateSet = candidateSet;
 	}
 
-	public void mateCandidateMutation(List <CandidateSolution> matingPool) {
+	private void mateCandidateMutation(List <CandidateSolution> matingPool) {
 		Random rand = new Random();
 		for (int i = 0; i < 100; i += 2) {
 			int cutOne = rand.nextInt(500);
@@ -32,7 +32,7 @@ public class geneticAlgorithem {
 
 	}
 
-	public void swapSections(CandidateSolution candidate1, CandidateSolution candidate2, int cut1, int cut2) {
+	private void swapSections(CandidateSolution candidate1, CandidateSolution candidate2, int cut1, int cut2) {
 		CandidateSolution child1 = new CandidateSolution();
 		CandidateSolution child2 = new CandidateSolution();
 		child1.setStudentProjectAllocations(candidate1.getStudentProjectAllocations());
@@ -46,7 +46,7 @@ public class geneticAlgorithem {
 
 	}
 
-	public void mateCandidateNormal(List<CandidateSolution> matingPool) {
+	private void mateCandidateNormal(List<CandidateSolution> matingPool) {
 		Random rand = new Random();
 		for (int i = 0; i < 100; i += 2) {
 			int cutOne = rand.nextInt(500);
@@ -77,7 +77,7 @@ public class geneticAlgorithem {
         if(i%1000==0) candidateSet.outputTop10();
     }    
     }
-    public boolean checkForMutation(){
+    private boolean checkForMutation(){
 		
 		double rand=Math.random();
 		if(Double.compare(rand, .9)==1){
@@ -85,11 +85,14 @@ public class geneticAlgorithem {
 		}
 		else return false;
 	}
-    public int getNumberOfIterations(){
+    private int getNumberOfIterations(){
 
           Scanner myObj = new Scanner(System.in);
 		System.out.println("Enter number of epochs");
 		int numberOfEpochs=Integer.parseInt(myObj.nextLine());
 		return numberOfEpochs;
-    }
+	}
+	public CandidateSolution getBeSolution(){
+		return candidateSet.get(0);
+	}
 }

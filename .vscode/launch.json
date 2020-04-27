@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "LoadStore.GUI.test",
+            "projectName": "LoadStore"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GUI",
+            "request": "launch",
+            "mainClass": "LoadStore.GUI.GUI",
+            "projectName": "LoadStore"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GUI",
+            "request": "launch",
+            "mainClass": "LoadStore.GUI",
+            "projectName": "LoadStore"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - main",
             "request": "launch",
             "mainClass": "LoadStore.main",
