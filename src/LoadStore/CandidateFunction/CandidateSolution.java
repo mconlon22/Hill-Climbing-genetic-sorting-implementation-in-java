@@ -15,12 +15,16 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
     EnergyFunction energy=new EnergyFunction();
     FitnessFunction fitness=new FitnessFunction();
     
-    public CandidateSolution(List<Student> students){
+    public EnergyFunction getEnergy() {
+		return energy;
+	}
+	public CandidateSolution(List<Student> students){
 		for(Student student : students) {
 		    Project randomProject=student.getProjectPreferences().get(rand.nextInt(10));
 		    StudentProjectAllocation candidate=new StudentProjectAllocation(student,randomProject);
 		    studentProjectAllocations.add(candidate);
         }
+		System.out.println(studentProjectAllocations.size());
         energyValue=energy.checkEnergy(studentProjectAllocations);
     }
     public CandidateSolution(){
@@ -53,7 +57,7 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
         	this.studentProjectAllocations.get(i).setProject(randomProject);
             updateEnergyValue();
         }
-    }
+    } 
     public void randomChange(int numChanges) {
        for(int i=0;i<numChanges;i++){
         studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
@@ -79,7 +83,14 @@ studentProjectAllocations.clear();
 public void toEnergyString(){
     energy.energyString(studentProjectAllocations);
 }
-
+public List<Double> getData() {
+List<Double> list =new ArrayList<Double>();
+list.add((double) this.getEnergy().checkNumOfDuplicates(this.getStudentProjectAllocations()));
+list.add((double) this.getEnergy().checkForMismatchingStream(this.getStudentProjectAllocations()));
+list.add((double) this.getEnergy().checkNumOfProjectsNotPreferred(this.getStudentProjectAllocations()));
+list.add((double) this.getEnergy().checkAveragePreferenceForProject(this.getStudentProjectAllocations()));
+return list;
+}
     
 }
 	

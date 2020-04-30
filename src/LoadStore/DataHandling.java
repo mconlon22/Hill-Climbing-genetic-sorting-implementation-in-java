@@ -23,10 +23,10 @@ public class DataHandling implements data {
 
 	List<Project> projects = new ArrayList<Project>();
 	List<StaffMember> staffMembers = new ArrayList<StaffMember>();
-	String projectPath = "src/LoadStore/csvdata/Projects.csv";
-	String studentsPath = "src/LoadStore/csvdata/Students.csv";
-	String staffPath = "src/LoadStore/csvdata/StaffMembers.csv";
-	String candidatePath = "src/LoadStore/csvdata/Candidates.csv";
+	String projectPath = "C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Projects.csv";
+	String studentsPath = "C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Students.csv";
+	String staffPath = "C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\StaffMembers.csv";
+	String candidatePath = "C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\LoadStore\\csvdata\\Candidates.csv";
 
 	/*
 	 * Storing Students to csv
@@ -149,22 +149,6 @@ public class DataHandling implements data {
 
 	}
 
-	/*
-	 * Loading Staff from csv
-	 */
-	public void loadStaffMembers() throws IOException {
-		File file = new File(staffPath);
-
-		BufferedReader staffCsvReader = new BufferedReader(new FileReader(file));
-		String row;
-		while ((row = staffCsvReader.readLine()) != null) {
-			String[] data = row.split(",");
-			StaffMember staffMember = new StaffMember(Integer.parseInt(data[0]), data[1], data[2], data[3]);
-			staffMembers.add(staffMember);
-			staffMember.toString();
-		}
-		staffCsvReader.close();
-	}
 
 	/*
 	 * Loading Projects from csv
@@ -186,7 +170,7 @@ public class DataHandling implements data {
 		projectCsvReader.close();
 	}
 
-	public int loadProjects(File projectFile)  {
+	public List loadProjects(File projectFile)  {
 	
 
 		BufferedReader projectCsvReader;
@@ -206,12 +190,40 @@ public class DataHandling implements data {
 		} 
 		 
 		catch (IOException e) {
-			
 			e.printStackTrace();
+
+			return null;
 		}
-		return projects.size();
+		return projects;
 	}
 
+	/*
+	 * Loading Staff from csv
+	 */
+	public List<StaffMember> loadStaffMembers(File staffFile) {
+		
+		try {
+			BufferedReader staffCsvReader = new BufferedReader(new FileReader(staffFile));
+		String row;
+		while ((row = staffCsvReader.readLine()) != null) {
+			String[] data = row.split(",");
+			StaffMember staffMember = new StaffMember(Integer.parseInt(data[0]), data[1], data[2], data[3]);
+			staffMembers.add(staffMember);
+			staffMember.toString();
+			
+		}
+		staffCsvReader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			return null;
+
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+
+		} 
+		return staffMembers;
+	}
 	/*
 	 * Loading Students from csv
 	 */
@@ -234,7 +246,7 @@ public class DataHandling implements data {
 		studentCsvReader.close();
 	}
 
-	public int loadStudents(File studentsFile) {
+	public List<Student> loadStudents(File studentsFile) {
 		BufferedReader studentCsvReader;
 		System.out.println("File:"+studentsFile.toString());
 		try {
@@ -253,14 +265,21 @@ public class DataHandling implements data {
 		
 	}
 	studentCsvReader.close();
+	
 }
  catch (IOException e) 
  {
 	e.printStackTrace();
+	return null;
 }
 	
-	return students.size();
+	return students;
 }
+	public void saveCandidateSolution(CandidateSolution candidate,String path) 
+	{
+		
+		
+	}
 	/*
 Helper functions to find staff member ect with a specific id
 	*/
@@ -320,6 +339,19 @@ public void save() {
 
 	
 }
+public void loadStaffMembers() throws IOException {
+	File file = new File(staffPath);
+
+	BufferedReader staffCsvReader = new BufferedReader(new FileReader(file));
+	String row;
+	while ((row = staffCsvReader.readLine()) != null) {
+		String[] data = row.split(",");
+		StaffMember staffMember = new StaffMember(Integer.parseInt(data[0]), data[1], data[2], data[3]);
+		staffMembers.add(staffMember);
+		staffMember.toString();
+	}
+	staffCsvReader.close();
+}
 @Override
 public int numStudents() {
 	return students.size();
@@ -347,24 +379,26 @@ public List<StaffMember> getStaff() {
 /*
 Save candidates function 
 */
-public void saveCandidate(CandidateSolution candidateSolution) throws IOException
+public String saveCandidate(CandidateSolution candidateSolution) throws IOException
 {
+	File file = null;
 	String fileSeparator = System.getProperty("file.separator");
 	String relativePath="";
      for (int i=0;i<10;i++){
-		relativePath = "tmp"+fileSeparator+"file"+i+".txt";
-		File file = new File(relativePath);
+		relativePath = "C:\\Users\\marti\\git\\SoftWare-Engineering\\src\\SavedCandidates\\"+"file"+i+".csv";
+		 file = new File(relativePath);
         if(file.createNewFile()){
 			System.out.println(relativePath+" File Created in Project root directory");
 			break;
-        }else System.out.println("File "+relativePath+" already exists in the project root directory");
+        }
+        else System.out.println("File "+relativePath+" already exists in the project root directory");
 	 }
 	FileWriter candidateCsvWriter= new FileWriter(relativePath);
 
 	for(StudentProjectAllocation candidate: candidateSolution.getStudentProjectAllocations()) {
 
 		try {
-			candidateCsvWriter.append(candidate.toCsvString());
+			candidateCsvWriter.append(candidate.toUsableString());
 
 			candidateCsvWriter.flush();
 		} catch (IOException e) {
@@ -373,7 +407,7 @@ public void saveCandidate(CandidateSolution candidateSolution) throws IOExceptio
 
 	}
 	candidateCsvWriter.close(); 
-		
+		return file.getPath();
 	}
 	/*
 	Load candidates function

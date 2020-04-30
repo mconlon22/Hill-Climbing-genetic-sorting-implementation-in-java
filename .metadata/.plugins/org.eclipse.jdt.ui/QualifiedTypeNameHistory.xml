@@ -2,4 +2,14 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="LoadStore.GUI.Algo"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="LoadStore.geneticAlgorithem"/>
+    <fullyQualifiedTypeName name="LoadStore.CandidateFunction.CandidateSet"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="LoadStore.CandidateFunction.FitnessFunction"/>
+    <fullyQualifiedTypeName name="LoadStore.DataHandling"/>
+    <fullyQualifiedTypeName name="LoadStore.CandidateFunction.CandidateSolution"/>
+    <fullyQualifiedTypeName name="LoadStore.HillClimbing"/>
 </qualifiedTypeNameHistroy>

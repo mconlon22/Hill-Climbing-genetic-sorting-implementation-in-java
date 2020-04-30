@@ -3,6 +3,8 @@ package LoadStore;
 import LoadStore.CandidateFunction.CandidateSolution;
 
 import java.text.DecimalFormat;
+import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 import javax.xml.stream.events.Comment;
@@ -19,7 +21,7 @@ public class HillClimbing {
      * constructor
      * @param candidate
     */
-    HillClimbing(CandidateSolution candidate)
+    public HillClimbing(CandidateSolution candidate)
     {
         this.candidate=candidate;
     }
@@ -30,13 +32,13 @@ public class HillClimbing {
     
     public void startHillClimbing(){
         Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter number of epochs");
     int numImprovements=0;
     Double improvementAmount= (double) 0;
     Double worseningAmount= (double) 0;
+    Random rand=new Random();
     
     int numWorsening=0;
-        int numberOfEpochs=Integer.parseInt(myObj.nextLine());
+        int numberOfEpochs=1000000;
         double changeInEnergy;
         double previousEnergy=0;
         double minFound=1000;

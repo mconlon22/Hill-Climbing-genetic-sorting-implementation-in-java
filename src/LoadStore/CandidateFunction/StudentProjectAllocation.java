@@ -34,6 +34,10 @@ public class StudentProjectAllocation {
 	{
 		return candidateId+","+student.getId()+"," +project.getId()+"\n";
 	}
+	public String toUsableString()
+	{
+		return candidateId+","+student.getFullName()+"," +project.getTitle()+"\n";
+	}
 
 	public int getCandidateId() {
 		return candidateId;
@@ -57,6 +61,7 @@ public class StudentProjectAllocation {
 	public void changeProjectAllocation(){
 		this.project=student.getProjectPreferences().get(rand.nextInt(10));
 	}
+	
 
 	
 }

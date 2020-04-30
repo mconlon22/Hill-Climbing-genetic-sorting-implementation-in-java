@@ -6,13 +6,15 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import javax.swing.JLabel;
+
 import LoadStore.CandidateFunction.CandidateSet;
 import LoadStore.CandidateFunction.CandidateSolution;
 
 public class geneticAlgorithem {
 	CandidateSet candidateSet;
 
-	geneticAlgorithem(CandidateSet candidateSet) {
+	public geneticAlgorithem(CandidateSet candidateSet) {
 		this.candidateSet = candidateSet;
 	}
 
@@ -58,8 +60,11 @@ public class geneticAlgorithem {
 		}
 	}
 
+	
+	
+	
 	public void mateCandidates(){
-		int numEpochs=getNumberOfIterations();
+		int numEpochs=1000000;
 		List<CandidateSolution> matingPool=new LinkedList();
 		candidateSet.outputTop10();
         for(int i=0;i<numEpochs;i++){

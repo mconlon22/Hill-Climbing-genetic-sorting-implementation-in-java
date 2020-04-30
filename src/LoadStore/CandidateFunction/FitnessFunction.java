@@ -5,16 +5,20 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
+import javax.swing.JLabel;
+
 import LoadStore.ProjectArea;
 import LoadStore.SpecialFocus;
 
 public class FitnessFunction {
-
+		Double Numduplicateprojects;
+		Double AveragePrefrence; 
+		Double ProjectsNotPreferred;
+		Double mismatchingStreams;
 	public double checkFitness(List<StudentProjectAllocation> candidates) {
 		double fitness = 0;
-		checkNumWithoutDuplicates(candidates);
-		fitness += checkForMatchingStream(candidates);
-		fitness += checkNumOfProjectsPreferred(candidates);
+		
+		
 		fitness += checkAveragePreferenceForProject(candidates);
 		return fitness;
 	}
@@ -33,7 +37,6 @@ public class FitnessFunction {
 	   
 
 	    
-	    System.out.println("numWithoutDuplicates:" +numWithoutDuplicates);
 	
 	    return numWithoutDuplicates;
 	}
@@ -51,7 +54,6 @@ public class FitnessFunction {
 				}
 			}
 	    }
-		System.out.println("numMatches: " + numMatches);
 		return numMatches;
 	}
 	
@@ -65,7 +67,6 @@ public class FitnessFunction {
 	        	numProjects++;
 	        }
 	    }
-		System.out.println("numProjectsPrefered: " + numProjects);
 		return numProjects;
 	}
 	
@@ -82,7 +83,6 @@ public class FitnessFunction {
 		
 		double avg = (double) preferenceSum/candidates.size();
 		avg = 9-avg;
-		System.out.println("averagePref: " + avg);
 		return avg;
 	}
 	

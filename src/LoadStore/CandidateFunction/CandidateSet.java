@@ -53,6 +53,14 @@ public void outputTop10(){
 	}
 	System.out.println(topString);
 }
+public FitnessFunction getBestCandidateFitnessFunction(){
+	sort();
+	
+		return candidateSet.get(1).getFitness();
+	
+	
+}
+
 
 
 	public void add(CandidateSolution candidate){
@@ -71,6 +79,18 @@ public void outputTop10(){
 
 		System.out.println("size:" +numCandidates);
 	
+	}
+	public List<Double> getBestCandidateValues() {
+		List<Double> list =new ArrayList<Double>();
+		CandidateSolution best=candidateSet.get(0);
+		list.add((double) best.getEnergy().checkNumOfDuplicates(best.getStudentProjectAllocations()));
+		list.add((double) best.getEnergy().checkForMismatchingStream(best.getStudentProjectAllocations()));
+		list.add((double) best.getEnergy().checkNumOfProjectsNotPreferred(best.getStudentProjectAllocations()));
+		list.add((double) best.getEnergy().checkAveragePreferenceForProject(best.getStudentProjectAllocations()));
+		return list;
+
+		
+		
 	}
 
 }

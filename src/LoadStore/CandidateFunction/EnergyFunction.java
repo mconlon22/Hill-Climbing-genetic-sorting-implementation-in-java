@@ -2,6 +2,9 @@ package LoadStore.CandidateFunction;
 
 import java.util.HashSet;
 import java.util.List;
+
+import javax.swing.JLabel;
+
 import java.lang.Math;
 
 import LoadStore.ProjectArea;
@@ -26,11 +29,14 @@ checking for duplicate projects
 		System.out.println("numDuplicates:" + checkNumOfDuplicates(candidates)+"\n MismatchingStream:"+ checkForMismatchingStream(candidates)+"\n NumOfProjectsNotPreferred"+ checkNumOfProjectsNotPreferred(candidates)+"\n checkAveragePreferenceForProject"+checkAveragePreferenceForProject(candidates));
 		
 	}
+
 	
 	public int checkNumOfDuplicates(List<StudentProjectAllocation> candidates){
-	    HashSet set = new HashSet<>(); 
+	    HashSet<Integer> set = new HashSet<>(); 
 	    int numDuplicates=0;
-	    for(StudentProjectAllocation candidate : candidates){   
+	    int num=0;
+	    for(StudentProjectAllocation candidate : candidates){ 
+	 
 	        if (set.add(candidate.getProject().getId()) == false) { 
 	            numDuplicates++;
 	        }
