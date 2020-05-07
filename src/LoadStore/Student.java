@@ -19,6 +19,12 @@ public class Student {
         this.projectPreferences = preferences;
         this.gpa =0;
     }
+    public Student(String fullName, int id,double GPA, List<Project> preferences) {
+        this.fullName = fullName; 
+        this.id = id;
+        this.projectPreferences = preferences;
+        this.gpa =GPA;
+    }
     
 
     public double getGpa() {
@@ -55,7 +61,7 @@ public class Student {
     	for (int i = 0; i < projectPreferences.size(); i++) {
     		preferenceString+=projectPreferences.get(i).getId()+",";
     	}
-    	return fullName+","+id+","+specialFocus.toString()+","+preferenceString+"\n";
+    	return fullName+","+id+","+preferenceString+"\n";
     }
     public String toString() {
     	String preferenceString="";
@@ -63,6 +69,6 @@ public class Student {
     		preferenceString+=projectPreferences.get(i).getTitle()+",";
     	}
     	
-    	return fullName+","+id+","+specialFocus.toString()+","+preferenceString+"\n";
+    	return fullName+","+id+","+preferenceString+"\n";
     }
 }

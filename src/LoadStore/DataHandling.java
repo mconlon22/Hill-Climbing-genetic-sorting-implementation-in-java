@@ -292,14 +292,8 @@ private StaffMember findStaffMember(int id) {
 	return null;
 }
 
-private Project findProject(int id) {
-	 for (int i = 0; i < projects.size(); i++) {
-       if(projects.get(i).getId()==id) {
-       	return projects.get(i);
-       }
-    }
-	return null;
-}
+
+
 private Student findStudent(int id) {
 	 for (Student student:students) {
       if(student.getId()==id) {
@@ -440,10 +434,49 @@ public int loadProjects(String filePath) {
 	// TODO Auto-generated method stub
 	return 0;
 }
+public void loadData(File file) throws NumberFormatException, IOException 
+{
 
-
+	BufferedReader studentCsvReader = new BufferedReader(new FileReader(file));
+	String row;
+	studentCsvReader.readLine();
+	while ((row = studentCsvReader.readLine()) != null) {
+		String[] data = row.split(",");
+		List<Project> projectPreferences = new LinkedList<>();
+		proposer proposer=toProposer(data[3]);
+		for (int i = 4; i < data.length; i++) {
+			
+			projectPreferences.add(checkForProject(data[i], proposer));
+		}
+		Student student = new Student(data[0], Integer.parseInt(data[1]),Double.parseDouble(data[2]) ,projectPreferences);
+		
+		students.add(student);
+	}
+	studentCsvReader.close();
 	
+}
+public Project checkForProject(String projectName,proposer proposer)
+{
+	for(Project project:projects) 
+	{
+	
+		if(project.getTitle().equals(projectName)) {
+			return project;
+			
+		}
+	}
+	Project newProject=new Project(projectName,proposer);
+	projects.add(newProject);
+	return newProject;
 
 }
-
-
+public proposer toProposer(String pro) 
+{
+	if(pro=="student")
+	{
+		
+		return proposer.student;
+	}
+	else return proposer.supervisor;
+}
+}

@@ -6,6 +6,7 @@ public class Project {
 	private int id;
 	private String title;
     private StaffMember supervisor;
+    private proposer proposer;
     private ProjectArea projectArea;
     private static AtomicInteger ID_GENERATOR = new AtomicInteger(1000);
 
@@ -35,6 +36,11 @@ public class Project {
     	this.title = title;
         this.supervisor = supervisor;
         this.projectArea = projectArea;
+    }
+    public Project(String title, proposer proposer) {
+        this.id=ID_GENERATOR.getAndIncrement();
+    	this.title = title;
+        this.proposer=proposer;
     }
     public Project(int id,String title, StaffMember supervisor, String projectArea) {
         this.id=id;

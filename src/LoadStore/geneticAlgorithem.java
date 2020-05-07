@@ -13,16 +13,17 @@ import LoadStore.CandidateFunction.CandidateSolution;
 
 public class geneticAlgorithem {
 	CandidateSet candidateSet;
-
-	public geneticAlgorithem(CandidateSet candidateSet) {
+	int numProjects;
+	public geneticAlgorithem(CandidateSet candidateSet,int numProjects) {
 		this.candidateSet = candidateSet;
+		this.numProjects=numProjects;
 	}
 
 	private void mateCandidateMutation(List <CandidateSolution> matingPool) {
 		Random rand = new Random();
 		for (int i = 0; i < 100; i += 2) {
-			int cutOne = rand.nextInt(500);
-			int cutTwo = rand.nextInt(500 - cutOne) + cutOne;
+			int cutOne = rand.nextInt(numProjects);
+			int cutTwo = rand.nextInt(numProjects - cutOne) + cutOne;
 
 			CandidateSolution firstCandidate = matingPool.remove(rand.nextInt(matingPool.size()));
 			CandidateSolution secondCandidate =matingPool.remove(rand.nextInt(matingPool.size()));
@@ -51,8 +52,8 @@ public class geneticAlgorithem {
 	private void mateCandidateNormal(List<CandidateSolution> matingPool) {
 		Random rand = new Random();
 		for (int i = 0; i < 100; i += 2) {
-			int cutOne = rand.nextInt(500);
-			int cutTwo = rand.nextInt(500 - cutOne) + cutOne;
+			int cutOne = rand.nextInt(numProjects);
+			int cutTwo = rand.nextInt(numProjects - cutOne) + cutOne;
 			CandidateSolution firstCandidate = matingPool.remove(rand.nextInt(matingPool.size()));
 			CandidateSolution secondCandidate =matingPool.remove(rand.nextInt(matingPool.size()));
 			swapSections(firstCandidate, secondCandidate, cutOne, cutTwo);

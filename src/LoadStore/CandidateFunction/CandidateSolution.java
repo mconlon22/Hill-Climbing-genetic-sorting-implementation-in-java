@@ -20,7 +20,7 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
 	}
 	public CandidateSolution(List<Student> students){
 		for(Student student : students) {
-		    Project randomProject=student.getProjectPreferences().get(rand.nextInt(10));
+		    Project randomProject=student.getProjectPreferences().get(rand.nextInt(student.getProjectPreferences().size()));
 		    StudentProjectAllocation candidate=new StudentProjectAllocation(student,randomProject);
 		    studentProjectAllocations.add(candidate);
         }
@@ -60,7 +60,7 @@ public class CandidateSolution implements Comparable< CandidateSolution >{
     } 
     public void randomChange(int numChanges) {
        for(int i=0;i<numChanges;i++){
-        studentProjectAllocations.get(rand.nextInt(500)).changeProjectAllocation();
+        studentProjectAllocations.get(rand.nextInt(studentProjectAllocations.size())).changeProjectAllocation();
         
        }
        updateEnergyValue();

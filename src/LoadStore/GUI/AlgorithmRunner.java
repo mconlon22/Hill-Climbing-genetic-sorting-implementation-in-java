@@ -26,6 +26,7 @@ import java.awt.Font;
 import net.miginfocom.swing.MigLayout;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -228,6 +229,14 @@ public class AlgorithmRunner extends JFrame {
 		contentPane.add(lblNewLabel, gbc_lblNewLabel);
 		
 		JButton btnDone = new JButton("Done");
+		btnDone.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				System.exit(0); 
+				dispose();
+			}
+			
+		});
 		GridBagConstraints gbc_btnDone = new GridBagConstraints();
 		gbc_btnDone.gridx = 2;
 		gbc_btnDone.gridy = 11;
@@ -240,7 +249,7 @@ public class AlgorithmRunner extends JFrame {
 		System.out.println(students.size());
 		 set=new CandidateSet(data.getStudents());
 		set.candidateSetTest();
-		 algorithm=new geneticAlgorithem(set);
+		 algorithm=new geneticAlgorithem(set,data.getStudents().size());
 		}
 		 thread1.start();
 		 thread2.start();
