@@ -146,7 +146,7 @@ public class DataLoader extends JFrame {
 	 
 	 
 	 public String loadData(File file) throws NumberFormatException, IOException {
-		 data.loadData(file);
+		 data.readFile(file);
 		 if(data.getProjects().size()==0||data.getProjects()==null||data.getStudents().size()==0||data.getStudents()==null) 
 		 {
 			 return "Failed to Import Data";

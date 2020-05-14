@@ -9,7 +9,11 @@
     <fullyQualifiedTypeName name="LoadStore.CandidateFunction.CandidateSet"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="LoadStore.CandidateFunction.FitnessFunction"/>
-    <fullyQualifiedTypeName name="LoadStore.DataHandling"/>
     <fullyQualifiedTypeName name="LoadStore.CandidateFunction.CandidateSolution"/>
     <fullyQualifiedTypeName name="LoadStore.HillClimbing"/>
+    <fullyQualifiedTypeName name="LoadStore.proposer"/>
+    <fullyQualifiedTypeName name="LoadStore.DataHandling"/>
+    <fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
 </qualifiedTypeNameHistroy>

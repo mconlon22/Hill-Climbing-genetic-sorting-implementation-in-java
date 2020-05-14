@@ -2,6 +2,7 @@ package LoadStore;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -12,6 +13,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
 
 import LoadStore.CandidateFunction.CandidateSolution;
 import LoadStore.CandidateFunction.StudentProjectAllocation;
@@ -434,9 +441,12 @@ public int loadProjects(String filePath) {
 	// TODO Auto-generated method stub
 	return 0;
 }
-public void loadData(File file) throws NumberFormatException, IOException 
+public void loadCsv(File file) throws NumberFormatException, IOException 
 {
-
+	
+	
+		
+	
 	BufferedReader studentCsvReader = new BufferedReader(new FileReader(file));
 	String row;
 	studentCsvReader.readLine();
@@ -479,4 +489,82 @@ public proposer toProposer(String pro)
 	}
 	else return proposer.supervisor;
 }
+public void loadXls(File file) throws IOException 
+{
+
+	FileInputStream fis=new FileInputStream(file);  
+	HSSFWorkbook wb=new HSSFWorkbook(fis);   
+	HSSFSheet sheet= wb.getSheetAt(0);  
+	DataFormatter formatter = new DataFormatter();
+	Boolean skipFirst=true;
+	
+	for(Row row: sheet)     
+	{  
+		if(skipFirst) {
+			skipFirst=false;
+			continue;
+		}
+		int iterate=0;
+		Student student=new Student();
+		List<Project> projectPreferences = new LinkedList<>();
+
+	for(Cell cell: row)    //iteration over cell using for each loop  
+	{  
+		proposer proposer = null;
+
+		String val = formatter.formatCellValue(cell);
+
+		if(val==""&&iterate==1)continue;
+		if(iterate==0) student.setFullName(val);
+		if(iterate==1) student.setId(Integer.parseInt(val));
+		if(iterate==2) student.setGpa(Double.parseDouble(val));
+		if(iterate==3)  proposer=toProposer(val);
+	
+		if(iterate>3&&val!="")  projectPreferences.add(checkForProject(val, proposer));
+		
+
+	
+
+		if(val==""&&iterate==25) 
+		{
+			
+			student.setProjectPreferences(projectPreferences);
+			students.add(student);
+		}
+		iterate++;
+
+		  
+	
+	
+
+}}
+}
+public fileType getFileType(File file) 
+{
+	String extension = "";
+
+	int i = file.getPath().lastIndexOf('.');
+ extension = file.getPath().substring(i+1);
+	System.out.println(extension);
+
+	
+	if(extension.compareTo("xls")==0) {
+		System.out.println("xls");
+		return LoadStore.fileType.xls;
+	}
+	if(extension.compareTo("csv")==0) {
+		return LoadStore.fileType.csv;
+	}
+if(extension.compareTo("tsv")==0) {
+		return LoadStore.fileType.tsv;
+	}
+return null;
+}
+public void readFile(File file) throws NumberFormatException, IOException
+{
+	if(getFileType(file)==fileType.csv) loadCsv(file);
+	if(getFileType(file)==fileType.xls) loadXls(file);
+
+}
+
 }

@@ -25,9 +25,19 @@ public class Student {
         this.projectPreferences = preferences;
         this.gpa =GPA;
     }
+    public Student() {
+      
+    }
+    
     
 
-    public double getGpa() {
+    public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public double getGpa() {
 		return gpa;
 	}
 
