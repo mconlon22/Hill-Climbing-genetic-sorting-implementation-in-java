@@ -9,6 +9,7 @@ import LoadStore.Project;
 public class TestingDataHandling {
 	public static void main(String[] args) {
         DataHandling data= new DataHandling();
+        //difference in csv and other formats for num projects is because of commas in the project title which i couldnt avoid
         //testing reading csv
         File csv=new File("LoadStore//csvdata//samplepreferencematrix(2).csv");
         try {

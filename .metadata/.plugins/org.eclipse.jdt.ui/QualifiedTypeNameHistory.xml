@@ -12,9 +12,7 @@
     <fullyQualifiedTypeName name="LoadStore.CandidateFunction.CandidateSolution"/>
     <fullyQualifiedTypeName name="LoadStore.HillClimbing"/>
     <fullyQualifiedTypeName name="LoadStore.proposer"/>
-    <fullyQualifiedTypeName name="LoadStore.DataHandling"/>
     <fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
     <fullyQualifiedTypeName name="com.sun.rowset.internal.Row"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
@@ -22,4 +20,10 @@
     <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFSheet"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.DataFormatter"/>
     <fullyQualifiedTypeName name="LoadStore.fileType"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="LoadStore.Project"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
+    <fullyQualifiedTypeName name="LoadStore.DataHandling"/>
 </qualifiedTypeNameHistroy>
