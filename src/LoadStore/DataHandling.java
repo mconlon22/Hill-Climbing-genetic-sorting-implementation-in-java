@@ -19,6 +19,8 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import LoadStore.CandidateFunction.CandidateSolution;
 import LoadStore.CandidateFunction.StudentProjectAllocation;
@@ -452,15 +454,17 @@ public void loadCsv(File file) throws NumberFormatException, IOException
 	studentCsvReader.readLine();
 	while ((row = studentCsvReader.readLine()) != null) {
 		String[] data = row.split(",");
+		if(data.length!=0) {
 		List<Project> projectPreferences = new LinkedList<>();
 		proposer proposer=toProposer(data[3]);
 		for (int i = 4; i < data.length; i++) {
-			
 			projectPreferences.add(checkForProject(data[i], proposer));
 		}
 		Student student = new Student(data[0], Integer.parseInt(data[1]),Double.parseDouble(data[2]) ,projectPreferences);
 		
 		students.add(student);
+		}
+
 	}
 	studentCsvReader.close();
 	
@@ -472,6 +476,7 @@ public Project checkForProject(String projectName,proposer proposer)
 	
 		if(project.getTitle().equals(projectName)) {
 			return project;
+			
 			
 		}
 	}
@@ -497,7 +502,6 @@ public void loadXls(File file) throws IOException
 	HSSFSheet sheet= wb.getSheetAt(0);  
 	DataFormatter formatter = new DataFormatter();
 	Boolean skipFirst=true;
-	
 	for(Row row: sheet)     
 	{  
 		if(skipFirst) {
@@ -520,7 +524,10 @@ public void loadXls(File file) throws IOException
 		if(iterate==2) student.setGpa(Double.parseDouble(val));
 		if(iterate==3)  proposer=toProposer(val);
 	
-		if(iterate>3&&val!="")  projectPreferences.add(checkForProject(val, proposer));
+		if(iterate>3&&val!="")  {
+
+			projectPreferences.add(checkForProject(val, proposer));
+		}
 		
 
 	
@@ -545,15 +552,16 @@ public fileType getFileType(File file)
 
 	int i = file.getPath().lastIndexOf('.');
  extension = file.getPath().substring(i+1);
-	System.out.println(extension);
 
 	
 	if(extension.compareTo("xls")==0) {
-		System.out.println("xls");
 		return LoadStore.fileType.xls;
 	}
 	if(extension.compareTo("csv")==0) {
 		return LoadStore.fileType.csv;
+	}
+	if(extension.compareTo("xlsx")==0) {
+		return LoadStore.fileType.xlsx;
 	}
 if(extension.compareTo("tsv")==0) {
 		return LoadStore.fileType.tsv;
@@ -564,7 +572,61 @@ public void readFile(File file) throws NumberFormatException, IOException
 {
 	if(getFileType(file)==fileType.csv) loadCsv(file);
 	if(getFileType(file)==fileType.xls) loadXls(file);
+	if(getFileType(file)==fileType.xlsx) loadXlsx(file);
 
+
+}
+
+private void loadXlsx(File file) throws IOException {
+	FileInputStream fis=new FileInputStream(file);  
+	XSSFWorkbook wb=new XSSFWorkbook(fis);   
+	XSSFSheet sheet= wb.getSheetAt(0);  
+	DataFormatter formatter = new DataFormatter();
+	Boolean skipFirst=true;
+	for(Row row: sheet)     
+	{  
+		if(skipFirst) {
+			skipFirst=false;
+			continue;
+		}
+		int iterate=0;
+		Student student=new Student();
+		List<Project> projectPreferences = new LinkedList<>();
+
+	for(Cell cell: row)    //iteration over cell using for each loop  
+	{  
+		proposer proposer = null;
+
+		String val = formatter.formatCellValue(cell);
+
+		if(val==""&&iterate==1)continue;
+		if(iterate==0) student.setFullName(val);
+		if(iterate==1) student.setId(Integer.parseInt(val));
+		if(iterate==2) student.setGpa(Double.parseDouble(val));
+		if(iterate==3)  proposer=toProposer(val);
+	
+		if(iterate>3&&val!="")  {
+
+			projectPreferences.add(checkForProject(val, proposer));
+		}
+		
+
+	
+
+		if(val==""&&iterate==25) 
+		{
+			
+			student.setProjectPreferences(projectPreferences);
+			students.add(student);
+		}
+		iterate++;
+
+		  
+	
+	
+
+}}
+	
 }
 
 }

@@ -478,3 +478,4 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Expected ro
 	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
 	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109) ~[na:na]
 	... 18 common frames omitted
+2020-05-15 18:30:38,872 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
